@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMSL Carousel</title>
+    <style>
+        :root {
+            --umsl-red: #78be21;
+            --umsl-gold: #27c4fd;
+            --umsl-gray: #E6E6E6;
+            --umsl-deep-red: #A6192E;
+            --umsl-cool-gray: #5B6770;
+            --umsl-dark-gray: #000000;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            font-family: "Oswald", sans-serif;
+        }
+
+        .red { background-color: var(--umsl-red); color: white; }
+        .gold { background-color: var(--umsl-gold); color: black; }
+        .gray { background-color: var(--umsl-gray); color: var(--umsl-dark-gray); }
+        .deep-red { background-color: var(--umsl-deep-red); color: white; }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: bold;
+            font-family: "Oswald", sans-serif;
+            margin-bottom: 0.75rem;
+        }
+
+        p, li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            font-family: "Oswald", sans-serif;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            padding-left: 0.5rem;
+        }
+
+        a {
+            text-decoration: underline;
+            color: inherit;
+            font-weight: 600;
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 0.1rem 0.3rem;
+            border-radius: 4px;
+        }
+
+        .embed {
+            margin-top: 1rem;
+            max-width: 100%;
+        }
+
+        .header-container {
+            background-color: var(--umsl-gold);
+            border-left: 6px solid var(--umsl-red);
+            border-right: 6px solid var(--umsl-red);
+            border-radius: 1rem;
+            box-shadow: 0 8px 24px rgba(59, 63, 66, 0.3); /* UMSL dark gray as shadow */
+            text-align: center;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            max-width: 960px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: var(--umsl-dark-gray);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .header-container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 12px 36px rgba(59, 63, 66, 0.4);
+        }
+
+        .mini-container {
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            font-size: 1.5rem;
+            width: 100%;
+            max-width: 480px;
+            margin: 1rem auto;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            box-shadow:
+                    0 2px 6px rgba(213, 0, 50, 0.3),      /* UMSL red */
+                    0 4px 12px rgba(253, 184, 39, 0.3),   /* UMSL gold */
+                    0 6px 18px rgba(120, 190, 33, 0.25);  /* accent green */
+            color: var(--umsl-dark-gray);
+            line-height: 1.6;
+            font-weight: 600;
+        }
+
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 0.5rem;
+        }
+        #plant-details {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            border-left: 6px solid var(--umsl-gold);
+            border-right: 6px solid var(--umsl-gold);
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .plant-image-container
+        {
+            border-top: 6px solid var(--umsl-red);
+            border-right: 6px solid var(--umsl-red);
+        }
+
+        .tag-container {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0;
+            box-shadow:
+                    0 2px 4px rgb(186, 12, 47),
+                    0 4px 8px rgb(234, 171, 0),
+                    0 6px 12px rgb(120, 190, 33);
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #000000;
+        }
+        @media (max-width: 768px) {
+
+            .header-container {
+                padding: 1rem;
+                font-size: 1.3rem;
+                width: auto;
+            }
+
+            .mini-container {
+                font-size: 1.2rem;
+                padding: 0.55rem .8rem;
+                width: auto;
+            }
+
+
+
+            h2 {
+                font-size: 1.3rem;
+                margin-bottom: 0.5rem;
+            }
+
+            p, li, h4, h5 {
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+
+            .insta-text-container {
+                padding: 0.75rem 1rem;
+                font-size: 0.95rem;
+            }
+
+            iframe {
+                height: 350px;
+            }
+
+            ul {
+                padding-left: 1rem;
+                margin-left: 0.5rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class = "header-container">
+<h2>🌿 Missouri Native Plant Recommender</h2>
+    <button onclick="switchMode('sustainability')">🌱 By Sustainability</button>
+    <button onclick="switchMode('space')">🌧️ By Native Space</button>
+</div>
+<div id="mo-plant-recommender" style="font-family: Oswald, sans-serif; padding: 1rem; max-width: 800px; margin: auto;">
+<div id="mode-sustainability" style="display: none; margin-top: 1rem;">
+    <label>
+        <strong>Select Plants based on Sustainability Goals:</strong>
+        <br/>
+        <select id="sustainability" multiple size="6" style="width: 100%; padding: 0.5rem; margin-top: 0.5rem;">
+            <option value="pollinator">Pollinator</option>
+            <option value="carbon_capture">Carbon Capture</option>
+            <option value="water_capture">Water Capture</option>
+            <option value="erosion_control">Erosion Control</option>
+            <option value="groundcover">Groundcover</option>
+            <option value="deer_resistant">Deer Resistant</option>
+        </select>
+    </label>
+</div>
+
+<div id="mode-space" style="display: none; margin-top: 1rem;">
+    <label>Native Plant Spaces:
+
+        <select id="use_case">
+            <option value="">--</option>
+            <option value="rain_garden">Rain Garden</option>
+            <option value="raised_bed">Raised Bed</option>
+            <option value="rainscape">Rainscape</option>
+            <option value="hydroponic">Hydroponic</option>
+            <option value="woodland_shade">Woodland Shade Garden</option>
+            <option value="prairie_patch">Prairie Patch</option>
+            <option value="pollinator_strip">Pollinator Strip</option>
+        </select>
+    </label>
+</div>
+<button onclick="recommendPlants()" style="margin: 1rem 0;">🌻 Show Recommended Plants</button>
+    <div>
+        <div id="plant-details" style="display: none; margin-top: 1rem;">
+            <h3 id="plant-common-name"></h3>
+            <h4 id ='plant-family'></h4>
+            <jpg id="plant-image" src="" alt="Plant Image" style="max-width: 100%; height: auto; margin-top: 1rem;">
+                <em id="plant-scientific-name">Scientific Name: </em>
+                <div id="plant-tags" style="margin-top: 1rem;"></div>
+        </div>
+    </div>
+    <div id="results">
+        <h3>🌾 Recommendations</h3>
+        <ul id="plant-list" style="padding-left: 1rem;"></ul>
+    </div>
+
+</div>
+<script>
+    let genusImages = {
+        "Abronia": "/plantImgs/abronia.jpg",
+        "Acer": "/plantImgs/acer.jpg",
+        "Quercus": "./plantImgs/quercus.jpg",
+        "Salix": "./plantImgs/salix.jpg",
+        "Liriodendron": "./plantImgs/liriodendron.jpg",
+        "Carya": "./plantImgs/testi.jpg",
+        "Pinus": "./plantImgs/testi.jpg",
+        "Betula": "./plantImgs/testi.jpg",
+        "Carya": "./plantImgs/testi.jpg",
+        "Tilia": "./plantImgs/testi.jpg",
+        "Ulmus": "./plantImgs/testi.jpg",
+        "Acer saccharum": "./plantImgs/testi.jpg",
+        "Platanus": "./plantImgs/testi.jpg",
+        "Juniperus": "./plantImgs/testi.jpg",
+        "Liquidambar": "./plantImgs/testi.jpg",
+        "Fraxinus": "./plantImgs/testi.jpg",
+        "Fagus": "./plantImgs/testi.jpg",
+        "Syringa": "./plantImgs/testi.jpg",
+        "Rudbeckia": "./plantImgs/testi.jpg",
+        "Asclepias": "/plantImgs/asclepias.jpg",
+        "Echinacea": "./plantImgs/testi.jpg",
+        "Hibiscus": "./plantImgs/testi.jpg",
+        "Verbena": "./plantImgs/testi.jpg",
+        "Helianthus": "./plantImgs/testi.jpg",
+        "Iris": "./plantImgs/testi.jpg",
+        "Coreopsis": "./plantImgs/testi.jpg",
+        "Agastache": "./plantImgs/testi.jpg",
+        "Monarda": "./plantImgs/testi.jpg",
+        "Liatris": "./plantImgs/testi.jpg",
+        "Cichorium": "./plantImgs/testi.jpg",
+        "Anemone": "./plantImgs/testi.jpg",
+        "Penstemon": "./plantImgs/testi.jpg",
+        "Rudbeckia": "./plantImgs/testi.jpg",
+        "Astilbe": "./plantImgs/testi.jpg",
+        "Echinacea purpurea": "./plantImgs/testi.jpg",
+        "Conoclinium": "./plantImgs/testi.jpg",
+        "Agastache foeniculum": "./plantImgs/testi.jpg",
+        "Gaillardia": "./plantImgs/testi.jpg",
+        "Salvia": "./plantImgs/testi.jpg",
+        "Lobelia": "./plantImgs/testi.jpg",
+        "Achillea": "./plantImgs/testi.jpg",
+        "Digitalis": "./plantImgs/testi.jpg",
+        "Helenium": "./plantImgs/testi.jpg",
+        "Aster": "./plantImgs/testi.jpg",
+        "Chrysanthemum": "./plantImgs/testi.jpg",
+        "Caltha": "./plantImgs/testi.jpg",
+        "Anemone": "./plantImgs/testi.jpg",
+        "Sedum": "./plantImgs/testi.jpg",
+        "Gaura": "./plantImgs/testi.jpg",
+        "Trifolium": "./plantImgs/testi.jpg",
+        "Clematis": "./plantImgs/testi.jpg",
+        "Thymus": "./plantImgs/testi.jpg",
+        "Lavandula": "./plantImgs/testi.jpg",
+        "Salvia nemorosa": "./plantImgs/testi.jpg",
+        "Thymus vulgaris": "./plantImgs/testi.jpg",
+    };
+    let allPlants = [];
+
+    async function fetchPlantData() {
+        try {
+            const res = await fetch('./categorized_plants.json');
+            allPlants = await res.json();
+        } catch (err) {
+            document.getElementById('plant-list').innerHTML = '<li>⚠️ Error loading plant data.</li>';
+
+        }
+    }
+
+    function switchMode(mode) {
+        ['sustainability', 'space'].forEach(id => {
+            document.getElementById('mode-' + id).style.display = id === mode ? 'block' : 'none';
+        });
+    }
+
+    let showAll = false;
+    function recommendPlants() {
+        const results = document.getElementById('plant-list');
+        results.innerHTML = '';
+        document.getElementById('show-more')?.remove();
+
+        const selected = {
+            sustainability: Array.from(document.getElementById('sustainability')?.selectedOptions || []).map(o => o.value),
+            use_case: document.getElementById('use_case')?.value
+        };
+
+        const scored = allPlants.map(plant => {
+            let score = 0;
+            const tags = plant.tags;
+
+            if (selected.sustainability.length && selected.sustainability.every(tag => tags.sustainability?.includes(tag))) score += selected.sustainability.length;
+
+            if (selected.use_case && tags.use_cases?.includes(selected.use_case)) score++;
+
+            return { plant, score };
+        });
+
+        const filtered = scored
+            .filter(p => p.score > 0)
+            .sort((a, b) => b.score - a.score);
+
+        if (filtered.length === 0) {
+            results.innerHTML = '<li>No matching plants found. Try adjusting your selections.</li>';
+            return;
+        }
+
+        const shown = showAll ? filtered : filtered.slice(0, 15);
+
+
+        shown.forEach(({ plant }) => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${plant.common_name}</strong><br/><em>${plant.scientific_name}</em>`;
+            li.style.marginBottom = '1em';
+            li.onclick = () => showPlantDetails(plant);
+            results.appendChild(li);
+        });
+
+        if (!showAll && filtered.length > 15) {
+            const btn = document.createElement('button');
+            btn.id = 'show-more';
+            btn.innerText = `Show ${filtered.length - 15} more plants`;
+            btn.style.margin = '1rem 0';
+            btn.onclick = () => {
+                showAll = true;
+                recommendPlants();
+            };
+            results.parentElement.appendChild(btn);
+        } else {
+            showAll = false;
+        }
+    }
+
+
+
+    function showPlantDetails(plant) {
+        const genusKey = plant.genus ?
+            plant.genus.charAt(0).toUpperCase() + plant.genus.slice(1).toLowerCase() :
+            '';
+
+        console.log("Genus key used for image:", genusKey);  // Debug
+        const genusImage = genusImages[genusKey] || "./plantImgs/default-genus.jpg";
+
+
+        document.getElementById('plant-common-name').innerText = plant.common_name || "Unknown Common Name";
+        document.getElementById('plant-scientific-name').innerText = plant.scientific_name || "Unknown Scientific Name";
+        document.getElementById('plant-family').innerText = plant.genus || "Unknown Plant Family";
+        document.getElementById('plant-image').src = genusImage;
+
+        document.getElementById('plant-tags').innerHTML = `
+
+        <div class='plant-image'><img class = 'plant-image-container' src="${genusImage}" alt="Image of ${plant.common_name || 'plant'}" /></div>
+        <Strong>Scientific Name: </Strong>${plant.scientific_name || ''}</br>
+        <strong>Sustainability Tags:</strong> ${plant.tags?.sustainability?.join(', ') || 'None'}<br/>
+        <strong>Use Case Tags:</strong> ${plant.tags?.use_cases?.join(', ') || 'None'}<br/>
+        <strong>Overall Sustainability Score (Zone 7a):</strong> ${plant.score?.join(', ') || 'None'}<br/>
+        </div>
+
+    `;
+        document.getElementById('plant-details').style.display = 'block';
+
+
+
+    }
+
+
+
+    fetchPlantData();
+    switchMode('sustainability'); // default view
+
+</script>
+</body>
+</html>
