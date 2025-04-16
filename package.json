@@ -1,0 +1,14 @@
+{
+  "name": "umsl-plant-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://chickens5.github.io/<umsl-plant-app>",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "private": true
+}
