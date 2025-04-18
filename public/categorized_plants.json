@@ -25,7 +25,7 @@
     "image_path": "plantImgs/acaciella.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -67,7 +67,7 @@
     "image_path": "plantImgs/achillea.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -150,7 +150,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Adiantum"
@@ -311,7 +311,7 @@
     "image_path": "plantImgs/agalinis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -1013,11 +1013,11 @@
     "image_path": "plantImgs/andropogon.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Andropogon"
@@ -1048,7 +1048,7 @@
     "image_path": "plantImgs/antennaria.jpg",
     "tags": {
       "sustainability": [
-        "groundcover"
+        "Groundcover"
       ],
       "use_cases": []
     },
@@ -1070,7 +1070,7 @@
     "image_path": "plantImgs/antennaria.jpg",
     "tags": {
       "sustainability": [
-        "groundcover"
+        "Groundcover"
       ],
       "use_cases": []
     },
@@ -1082,7 +1082,7 @@
     "image_path": "plantImgs/antennaria.jpg",
     "tags": {
       "sustainability": [
-        "groundcover"
+        "Groundcover"
       ],
       "use_cases": []
     },
@@ -1094,11 +1094,11 @@
     "image_path": "plantImgs/andropogon.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Andropogon"
@@ -1229,7 +1229,7 @@
     "image_path": "plantImgs/artemisia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -1242,7 +1242,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Argyrochosma"
@@ -1413,7 +1413,7 @@
     "image_path": "plantImgs/argemone.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -1455,7 +1455,7 @@
     "image_path": "plantImgs/aristida.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -1467,7 +1467,7 @@
     "image_path": "plantImgs/argemone.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -1539,7 +1539,7 @@
     "image_path": "plantImgs/argemone.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -1581,13 +1581,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1598,13 +1598,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1615,8 +1615,8 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -1658,13 +1658,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1695,14 +1695,14 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "pollinator",
-        "water_capture"
+        "Carbon Capture",
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1723,14 +1723,14 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1741,13 +1741,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1778,12 +1778,12 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1794,13 +1794,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1811,13 +1811,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1908,13 +1908,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1925,13 +1925,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1942,13 +1942,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -1980,7 +1980,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Asplenium"
@@ -2001,13 +2001,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2028,13 +2028,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2045,13 +2045,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2062,13 +2062,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2079,13 +2079,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2116,13 +2116,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2133,13 +2133,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2150,13 +2150,13 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Asclepias"
@@ -2167,8 +2167,8 @@
     "image_path": "plantImgs/asclepias.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -2240,10 +2240,10 @@
     "image_path": "plantImgs/baptisia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Baptisia"
@@ -2254,10 +2254,10 @@
     "image_path": "plantImgs/baptisia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Baptisia"
@@ -2268,10 +2268,10 @@
     "image_path": "plantImgs/baptisia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Baptisia"
@@ -2282,10 +2282,10 @@
     "image_path": "plantImgs/baptisia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Baptisia"
@@ -2516,10 +2516,10 @@
     "image_path": "plantImgs/blephilia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Blephilia"
@@ -2550,7 +2550,7 @@
     "image_path": "plantImgs/bouteloua.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control"
+        "Erosion Control"
       ],
       "use_cases": []
     },
@@ -2562,11 +2562,11 @@
     "image_path": "plantImgs/bothriochloa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Bothriochloa"
@@ -2577,11 +2577,11 @@
     "image_path": "plantImgs/bothriochloa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Bothriochloa"
@@ -2592,7 +2592,7 @@
     "image_path": "plantImgs/bouteloua.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control"
+        "Erosion Control"
       ],
       "use_cases": []
     },
@@ -2625,7 +2625,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Botrychium"
@@ -2646,7 +2646,7 @@
     "image_path": "plantImgs/bouteloua.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control"
+        "Erosion Control"
       ],
       "use_cases": []
     },
@@ -2658,7 +2658,7 @@
     "image_path": "plantImgs/bouteloua.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control"
+        "Erosion Control"
       ],
       "use_cases": []
     },
@@ -2690,11 +2690,11 @@
     "image_path": "plantImgs/bothriochloa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Bothriochloa"
@@ -2706,7 +2706,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Botrychium"
@@ -2937,14 +2937,14 @@
     "image_path": "plantImgs/bulbostylis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Bulbostylis"
@@ -2965,14 +2965,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -2993,14 +2993,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3021,14 +3021,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3039,7 +3039,7 @@
     "image_path": "plantImgs/camassia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -3051,14 +3051,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3079,14 +3079,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3097,14 +3097,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3115,14 +3115,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3133,14 +3133,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3161,14 +3161,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3189,14 +3189,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3207,14 +3207,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3245,14 +3245,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3263,14 +3263,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3301,14 +3301,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3339,14 +3339,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3357,14 +3357,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3375,7 +3375,7 @@
     "image_path": "plantImgs/carya.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -3407,14 +3407,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3425,14 +3425,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3463,14 +3463,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3481,14 +3481,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3499,14 +3499,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3517,14 +3517,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3535,14 +3535,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3553,14 +3553,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3581,14 +3581,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3599,14 +3599,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3617,14 +3617,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3665,14 +3665,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3683,14 +3683,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3701,14 +3701,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3719,14 +3719,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3737,14 +3737,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3765,14 +3765,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3793,14 +3793,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3811,14 +3811,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3829,14 +3829,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3847,14 +3847,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3865,7 +3865,7 @@
     "image_path": "plantImgs/carya.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -3897,14 +3897,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3915,7 +3915,7 @@
     "image_path": "plantImgs/calamovilfa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -3927,14 +3927,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3955,14 +3955,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -3983,14 +3983,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4001,14 +4001,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4019,14 +4019,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4037,14 +4037,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4055,14 +4055,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4073,14 +4073,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4101,14 +4101,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4119,14 +4119,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4137,7 +4137,7 @@
     "image_path": "plantImgs/carya.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -4189,14 +4189,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4207,14 +4207,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4225,7 +4225,7 @@
     "image_path": "plantImgs/castilleja.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -4267,14 +4267,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4285,14 +4285,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4333,14 +4333,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4391,14 +4391,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4429,14 +4429,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4447,14 +4447,14 @@
     "image_path": "plantImgs/callitriche.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Callitriche"
@@ -4465,14 +4465,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4483,14 +4483,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4521,14 +4521,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4539,7 +4539,7 @@
     "image_path": "plantImgs/carya.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -4571,7 +4571,7 @@
     "image_path": "plantImgs/carya.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -4583,14 +4583,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4601,14 +4601,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4629,14 +4629,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4647,14 +4647,14 @@
     "image_path": "plantImgs/carex.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Carex"
@@ -4815,11 +4815,11 @@
     "image_path": "plantImgs/cephalanthus.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": [
-        "rain_garden",
-        "rainscape"
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Cephalanthus"
@@ -4980,11 +4980,11 @@
     "image_path": "plantImgs/chaetopappa.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Chaetopappa"
@@ -5006,7 +5006,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Cheilanthes"
@@ -5088,7 +5088,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Cheilanthes"
@@ -5169,11 +5169,11 @@
     "image_path": "plantImgs/chrysopsis.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Chrysopsis"
@@ -5275,7 +5275,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Cheilanthes"
@@ -5456,10 +5456,10 @@
     "image_path": "plantImgs/cleome.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Cleome"
@@ -5700,10 +5700,10 @@
     "image_path": "plantImgs/coreopsis.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Coreopsis"
@@ -5714,10 +5714,10 @@
     "image_path": "plantImgs/coreopsis.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Coreopsis"
@@ -5758,10 +5758,10 @@
     "image_path": "plantImgs/cornus.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic"
+        "Hydroponic"
       ]
     },
     "genus": "Cornus"
@@ -5792,10 +5792,10 @@
     "image_path": "plantImgs/coreopsis.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Coreopsis"
@@ -5806,10 +5806,10 @@
     "image_path": "plantImgs/coreopsis.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Coreopsis"
@@ -5830,10 +5830,10 @@
     "image_path": "plantImgs/coreopsis.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Coreopsis"
@@ -5844,10 +5844,10 @@
     "image_path": "plantImgs/coreopsis.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Coreopsis"
@@ -6358,12 +6358,12 @@
     "image_path": "plantImgs/cynanchum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "prairie_patch",
-        "raised_bed"
+        "Pollinator Strip",
+        "Prairie Patch",
+        "Raised Bed"
       ]
     },
     "genus": "Cynanchum"
@@ -6374,14 +6374,14 @@
     "image_path": "plantImgs/cyperus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Cyperus"
@@ -6393,7 +6393,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Cyperus"
@@ -6404,14 +6404,14 @@
     "image_path": "plantImgs/cyperus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Cyperus"
@@ -6453,7 +6453,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Cystopteris"
@@ -6464,14 +6464,14 @@
     "image_path": "plantImgs/cyperus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Cyperus"
@@ -6492,14 +6492,14 @@
     "image_path": "plantImgs/cyperus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Cyperus"
@@ -6511,7 +6511,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Cystopteris"
@@ -6532,7 +6532,7 @@
     "image_path": "plantImgs/cyclachaena.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -6564,7 +6564,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -6576,7 +6576,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -6618,7 +6618,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -6630,7 +6630,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -6652,8 +6652,8 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": []
     },
@@ -6665,7 +6665,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -6687,10 +6687,10 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Dalea"
@@ -6721,7 +6721,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -6733,7 +6733,7 @@
     "image_path": "plantImgs/dalea.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -7096,7 +7096,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Diplazium"
@@ -7157,10 +7157,10 @@
     "image_path": "plantImgs/dracopis.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Dracopis"
@@ -7202,7 +7202,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Dryopteris"
@@ -7243,7 +7243,7 @@
     "image_path": "plantImgs/dysphania.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -7255,7 +7255,7 @@
     "image_path": "plantImgs/dyssodia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -7267,7 +7267,7 @@
     "image_path": "plantImgs/echinacea.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -7279,10 +7279,10 @@
     "image_path": "plantImgs/echinacea.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Echinacea"
@@ -7343,10 +7343,10 @@
     "image_path": "plantImgs/echinacea.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Echinacea"
@@ -7367,10 +7367,10 @@
     "image_path": "plantImgs/echinacea.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Echinacea"
@@ -7431,13 +7431,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7498,13 +7498,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7535,13 +7535,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7552,13 +7552,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7589,13 +7589,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7616,13 +7616,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7633,13 +7633,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7650,13 +7650,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7677,13 +7677,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7694,13 +7694,13 @@
     "image_path": "plantImgs/eleocharis.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Eleocharis"
@@ -7832,7 +7832,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Erythronium"
@@ -7933,7 +7933,7 @@
     "image_path": "plantImgs/eriochloa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -8235,7 +8235,7 @@
     "image_path": "plantImgs/erigeron.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -8277,7 +8277,7 @@
     "image_path": "plantImgs/eryngium.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -8349,7 +8349,7 @@
     "image_path": "plantImgs/eustoma.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -8362,7 +8362,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Euthamia"
@@ -8423,13 +8423,13 @@
     "image_path": "plantImgs/eurybia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator",
-        "water_capture"
+        "Pollinator",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "pollinator_strip",
-        "raised_bed"
+        
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Eurybia"
@@ -8570,10 +8570,10 @@
     "image_path": "plantImgs/forestiera.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic"
+        "Hydroponic"
       ]
     },
     "genus": "Forestiera"
@@ -8664,7 +8664,7 @@
     "image_path": "plantImgs/fragaria.jpg",
     "tags": {
       "sustainability": [
-        "groundcover"
+        "Groundcover"
       ],
       "use_cases": []
     },
@@ -8686,14 +8686,14 @@
     "image_path": "plantImgs/fuirena.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Fuirena"
@@ -8705,7 +8705,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Gaillardia"
@@ -8727,7 +8727,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Gaillardia"
@@ -8789,7 +8789,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Gaillardia"
@@ -8811,7 +8811,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Gaillardia"
@@ -8873,7 +8873,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Geranium"
@@ -8895,7 +8895,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Geranium"
@@ -8907,7 +8907,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Geranium"
@@ -9078,10 +9078,10 @@
     "image_path": "plantImgs/gymnocarpium.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Gymnocarpium"
@@ -9153,7 +9153,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9184,11 +9184,11 @@
     "image_path": "plantImgs/heterotheca.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Heterotheca"
@@ -9250,7 +9250,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9282,7 +9282,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9304,7 +9304,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9326,7 +9326,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9338,7 +9338,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9350,7 +9350,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9362,7 +9362,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9393,7 +9393,7 @@
     "image_path": "plantImgs/heuchera.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -9406,7 +9406,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9438,7 +9438,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Helianthus"
@@ -9449,11 +9449,11 @@
     "image_path": "plantImgs/heterotheca.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Heterotheca"
@@ -9494,11 +9494,11 @@
     "image_path": "plantImgs/heterotheca.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Heterotheca"
@@ -9710,7 +9710,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Hybanthus"
@@ -9801,7 +9801,7 @@
     "image_path": "plantImgs/hydrocotyle.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -9873,11 +9873,11 @@
     "image_path": "plantImgs/ionactis.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Ionactis"
@@ -10009,9 +10009,9 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Iris"
@@ -10023,9 +10023,9 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Iris"
@@ -10047,9 +10047,9 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Iris"
@@ -10080,7 +10080,7 @@
     "image_path": "plantImgs/iva.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -10092,7 +10092,7 @@
     "image_path": "plantImgs/iva.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -10114,13 +10114,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10141,13 +10141,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10158,13 +10158,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10175,13 +10175,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10192,13 +10192,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10209,13 +10209,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10226,13 +10226,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10243,13 +10243,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10260,13 +10260,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10277,13 +10277,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10314,13 +10314,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10331,13 +10331,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10348,13 +10348,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10365,13 +10365,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10382,13 +10382,13 @@
     "image_path": "plantImgs/juncus.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Juncus"
@@ -10419,7 +10419,7 @@
     "image_path": "plantImgs/koeleria.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -10521,14 +10521,14 @@
     "image_path": "plantImgs/kyllinga.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Kyllinga"
@@ -10629,7 +10629,7 @@
     "image_path": "plantImgs/lactuca.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -11022,7 +11022,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Lespedeza"
@@ -11053,10 +11053,10 @@
     "image_path": "plantImgs/liatris.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Liatris"
@@ -11117,10 +11117,10 @@
     "image_path": "plantImgs/liatris.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Liatris"
@@ -11171,10 +11171,10 @@
     "image_path": "plantImgs/liatris.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Liatris"
@@ -11195,7 +11195,7 @@
     "image_path": "plantImgs/linum.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -11247,10 +11247,10 @@
     "image_path": "plantImgs/liatris.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Liatris"
@@ -11261,10 +11261,10 @@
     "image_path": "plantImgs/liatris.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Liatris"
@@ -11285,10 +11285,10 @@
     "image_path": "plantImgs/liatris.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Liatris"
@@ -11330,7 +11330,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "rain_garden"
+        "Rain Garden"
       ]
     },
     "genus": "Lobelia"
@@ -11342,7 +11342,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "rain_garden"
+        "Rain Garden"
       ]
     },
     "genus": "Lobelia"
@@ -11384,7 +11384,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "rain_garden"
+        "Rain Garden"
       ]
     },
     "genus": "Lobelia"
@@ -11466,8 +11466,8 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "hydroponic",
-        "rain_garden"
+        
+        "Rain Garden"
       ]
     },
     "genus": "Lobelia"
@@ -11479,7 +11479,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "rain_garden"
+        "Rain Garden"
       ]
     },
     "genus": "Lobelia"
@@ -11500,7 +11500,7 @@
     "image_path": "plantImgs/lotus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -11522,13 +11522,13 @@
     "image_path": "plantImgs/luzula.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Luzula"
@@ -11559,7 +11559,7 @@
     "image_path": "plantImgs/ludwigia.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -11671,13 +11671,13 @@
     "image_path": "plantImgs/lygodesmia.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Lygodesmia"
@@ -11778,11 +11778,11 @@
     "image_path": "plantImgs/machaeranthera.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Machaeranthera"
@@ -11833,7 +11833,7 @@
     "image_path": "plantImgs/malus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -11875,11 +11875,11 @@
     "image_path": "plantImgs/machaeranthera.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Machaeranthera"
@@ -11950,11 +11950,11 @@
     "image_path": "plantImgs/machaeranthera.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Machaeranthera"
@@ -12015,10 +12015,10 @@
     "image_path": "plantImgs/mentha.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Mentha"
@@ -12259,7 +12259,7 @@
     "image_path": "plantImgs/mirabilis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -12321,8 +12321,8 @@
     "image_path": "plantImgs/monarda.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -12334,8 +12334,8 @@
     "image_path": "plantImgs/monarda.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -12347,8 +12347,8 @@
     "image_path": "plantImgs/monarda.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -12360,8 +12360,8 @@
     "image_path": "plantImgs/monarda.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -12393,8 +12393,8 @@
     "image_path": "plantImgs/monarda.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -12406,8 +12406,8 @@
     "image_path": "plantImgs/monarda.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -12660,7 +12660,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "hydroponic"
+        "Hydroponic"
       ]
     },
     "genus": "Nasturtium"
@@ -12691,12 +12691,12 @@
     "image_path": "plantImgs/nemastylis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Nemastylis"
@@ -12757,7 +12757,7 @@
     "image_path": "plantImgs/nothocalais.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -12960,7 +12960,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Oligoneuron"
@@ -12992,7 +12992,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Onoclea"
@@ -13043,7 +13043,7 @@
     "image_path": "plantImgs/opuntia.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -13055,7 +13055,7 @@
     "image_path": "plantImgs/opuntia.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -13138,7 +13138,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Osmunda"
@@ -13210,7 +13210,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Oxalis"
@@ -13491,7 +13491,7 @@
     "image_path": "plantImgs/packera.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -13623,11 +13623,11 @@
     "image_path": "plantImgs/panicum.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Panicum"
@@ -13648,8 +13648,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13671,8 +13671,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13684,8 +13684,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13718,7 +13718,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Pellaea"
@@ -13749,8 +13749,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13782,8 +13782,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13815,8 +13815,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13838,8 +13838,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13861,8 +13861,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13884,7 +13884,7 @@
     "image_path": "plantImgs/penthorum.jpg",
     "tags": {
       "sustainability": [
-        "groundcover"
+        "Groundcover"
       ],
       "use_cases": []
     },
@@ -13906,8 +13906,8 @@
     "image_path": "plantImgs/penstemon.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant",
-        "pollinator"
+        "Deer Resistant",
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -13930,7 +13930,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -13961,10 +13961,10 @@
     "image_path": "plantImgs/phlox.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -13996,7 +13996,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -14048,7 +14048,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -14070,7 +14070,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phegopteris"
@@ -14111,7 +14111,7 @@
     "image_path": "plantImgs/phoradendron.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -14174,7 +14174,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -14196,7 +14196,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -14208,7 +14208,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Phlox"
@@ -14229,7 +14229,7 @@
     "image_path": "plantImgs/physalis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -14251,7 +14251,7 @@
     "image_path": "plantImgs/phemeranthus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -14363,7 +14363,7 @@
     "image_path": "plantImgs/platanthera.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -14406,7 +14406,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Pleopeltis"
@@ -14488,7 +14488,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Polystichum"
@@ -14659,11 +14659,11 @@
     "image_path": "plantImgs/pontederia.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": [
-        "rain_garden",
-        "rainscape"
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Pontederia"
@@ -14874,7 +14874,7 @@
     "image_path": "plantImgs/polytaenia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -15297,7 +15297,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Pteridium"
@@ -15348,10 +15348,10 @@
     "image_path": "plantImgs/pycnanthemum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Pycnanthemum"
@@ -15392,10 +15392,10 @@
     "image_path": "plantImgs/pycnanthemum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Pycnanthemum"
@@ -15406,10 +15406,10 @@
     "image_path": "plantImgs/pycnanthemum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Pycnanthemum"
@@ -15420,10 +15420,10 @@
     "image_path": "plantImgs/pycnanthemum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Pycnanthemum"
@@ -15434,7 +15434,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15447,7 +15447,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15470,7 +15470,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15483,7 +15483,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15496,7 +15496,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15509,7 +15509,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15522,7 +15522,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15535,7 +15535,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15548,7 +15548,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15561,7 +15561,7 @@
     "image_path": "plantImgs/quercus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
+        "Carbon Capture",
         "native_tree"
       ],
       "use_cases": []
@@ -15584,11 +15584,11 @@
     "image_path": "plantImgs/rayjacksonia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Rayjacksonia"
@@ -15609,11 +15609,11 @@
     "image_path": "plantImgs/ratibida.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "pollinator"
+        "Carbon Capture",
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Ratibida"
@@ -15694,11 +15694,11 @@
     "image_path": "plantImgs/ratibida.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "pollinator"
+        "Carbon Capture",
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Ratibida"
@@ -15719,7 +15719,7 @@
     "image_path": "plantImgs/ranunculus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -15761,11 +15761,11 @@
     "image_path": "plantImgs/ratibida.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "pollinator"
+        "Carbon Capture",
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Ratibida"
@@ -15826,14 +15826,14 @@
     "image_path": "plantImgs/rhynchospora.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Rhynchospora"
@@ -15864,14 +15864,14 @@
     "image_path": "plantImgs/rhynchospora.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "groundcover",
-        "water_capture"
+        "Erosion Control",
+        "Groundcover",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Rhynchospora"
@@ -15982,7 +15982,7 @@
     "image_path": "plantImgs/rosa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -16054,7 +16054,7 @@
     "image_path": "plantImgs/rosa.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -16176,10 +16176,10 @@
     "image_path": "plantImgs/rudbeckia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Rudbeckia"
@@ -16210,7 +16210,7 @@
     "image_path": "plantImgs/rudbeckia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -16232,10 +16232,10 @@
     "image_path": "plantImgs/rudbeckia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Rudbeckia"
@@ -16346,10 +16346,10 @@
     "image_path": "plantImgs/rudbeckia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "raised_bed"
+        "Raised Bed"
       ]
     },
     "genus": "Rudbeckia"
@@ -16370,7 +16370,7 @@
     "image_path": "plantImgs/rudbeckia.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": []
     },
@@ -16392,10 +16392,10 @@
     "image_path": "plantImgs/rumex.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic"
+        "Hydroponic"
       ]
     },
     "genus": "Rumex"
@@ -16796,13 +16796,13 @@
     "image_path": "plantImgs/scleria.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "water_capture"
+        "Erosion Control",
+        "Water Capture"
       ],
       "use_cases": [
-        "hydroponic",
-        "rain_garden",
-        "rainscape"
+        
+        "Rain Garden",
+        "Rainscape"
       ]
     },
     "genus": "Scleria"
@@ -16843,7 +16843,7 @@
     "image_path": "plantImgs/scutellaria.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -17005,11 +17005,11 @@
     "image_path": "plantImgs/schizachyrium.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "erosion_control"
+        "Carbon Capture",
+        "Erosion Control"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Schizachyrium"
@@ -17060,7 +17060,7 @@
     "image_path": "plantImgs/senecio.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -17122,7 +17122,7 @@
     "image_path": "plantImgs/senecio.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -17174,7 +17174,7 @@
     "image_path": "plantImgs/senecio.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -17366,7 +17366,7 @@
     "image_path": "plantImgs/sida.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -17498,7 +17498,7 @@
     "image_path": "plantImgs/sonchus.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },
@@ -17540,11 +17540,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17585,11 +17585,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17600,11 +17600,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17635,11 +17635,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17650,11 +17650,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17695,11 +17695,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17710,11 +17710,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17735,11 +17735,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17760,11 +17760,11 @@
     "image_path": "plantImgs/solidago.jpg",
     "tags": {
       "sustainability": [
-        "erosion_control",
-        "pollinator"
+        "Erosion Control",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip"
+        "Pollinator Strip"
       ]
     },
     "genus": "Solidago"
@@ -17775,8 +17775,8 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": []
     },
@@ -17828,11 +17828,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -17853,11 +17853,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -17868,11 +17868,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -17913,11 +17913,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -17948,11 +17948,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -17973,7 +17973,7 @@
     "image_path": "plantImgs/sphenopholis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -18005,11 +18005,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -18020,7 +18020,7 @@
     "image_path": "plantImgs/sphenopholis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -18052,7 +18052,7 @@
     "image_path": "plantImgs/spartina.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -18074,11 +18074,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -18099,11 +18099,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -18114,11 +18114,11 @@
     "image_path": "plantImgs/sporobolus.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "groundcover"
+        "Carbon Capture",
+        "Groundcover"
       ],
       "use_cases": [
-        "prairie_patch"
+        "Prairie Patch"
       ]
     },
     "genus": "Sporobolus"
@@ -18309,11 +18309,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18324,11 +18324,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18339,11 +18339,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18354,11 +18354,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18369,12 +18369,12 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "pollinator"
+        "Carbon Capture",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18385,11 +18385,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18400,11 +18400,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18415,11 +18415,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18430,11 +18430,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18445,11 +18445,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18470,11 +18470,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18485,11 +18485,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18510,11 +18510,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18525,11 +18525,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18540,11 +18540,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18555,11 +18555,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18570,11 +18570,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18585,13 +18585,13 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture",
-        "pollinator"
+        "Carbon Capture",
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed",
-        "woodland_shade"
+        "Pollinator Strip",
+        "Raised Bed",
+        "Woodland Shade"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18602,11 +18602,11 @@
     "image_path": "plantImgs/symphyotrichum.jpg",
     "tags": {
       "sustainability": [
-        "pollinator"
+        "Pollinator"
       ],
       "use_cases": [
-        "pollinator_strip",
-        "raised_bed"
+        "Pollinator Strip",
+        "Raised Bed"
       ]
     },
     "genus": "Symphyotrichum"
@@ -18807,10 +18807,10 @@
     "image_path": "plantImgs/thelypteris.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Thelypteris"
@@ -18891,7 +18891,7 @@
     "image_path": "plantImgs/toxicodendron.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -19053,7 +19053,7 @@
     "image_path": "plantImgs/triodanis.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -19105,7 +19105,7 @@
     "image_path": "plantImgs/tradescantia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -19198,7 +19198,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Trillium"
@@ -19250,7 +19250,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Trillium"
@@ -19261,7 +19261,7 @@
     "image_path": "plantImgs/typha.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -19273,7 +19273,7 @@
     "image_path": "plantImgs/typha.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -19285,7 +19285,7 @@
     "image_path": "plantImgs/typha.jpg",
     "tags": {
       "sustainability": [
-        "water_capture"
+        "Water Capture"
       ],
       "use_cases": []
     },
@@ -19537,7 +19537,7 @@
     "image_path": "plantImgs/vernonia.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": []
     },
@@ -19730,7 +19730,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19802,7 +19802,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19814,7 +19814,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19826,7 +19826,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19838,7 +19838,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19850,7 +19850,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19861,10 +19861,10 @@
     "image_path": "plantImgs/viola.jpg",
     "tags": {
       "sustainability": [
-        "carbon_capture"
+        "Carbon Capture"
       ],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19876,7 +19876,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19918,7 +19918,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -19930,7 +19930,7 @@
     "tags": {
       "sustainability": [],
       "use_cases": [
-        "woodland_shade"
+        "Woodland Shade"
       ]
     },
     "genus": "Viola"
@@ -20071,7 +20071,7 @@
     "image_path": "plantImgs/zanthoxylum.jpg",
     "tags": {
       "sustainability": [
-        "deer_resistant"
+        "Deer Resistant"
       ],
       "use_cases": []
     },

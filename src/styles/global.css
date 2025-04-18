@@ -63,6 +63,15 @@ body {
     text-align: center;
 }
 
+.results-list   {
+    height: 100%;
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    outline: black solid 15px;
+    text-align: center;
+}
 
 .content-container {
     background: rgba(186, 12, 47, 0.33);
@@ -136,7 +145,7 @@ body {
         border: none;
         border-radius: 0.5rem;
     }
-    #plant-details {
+    .plant-details {
         border: 1px solid #ccc;
         padding: 1rem;
         border-left: 6px solid var(--umsl-gold);
@@ -145,10 +154,15 @@ body {
         background-color: #fff;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
+.plant-details:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 36px rgba(59, 63, 66, 0.4);
+}
     .plant-image-container
     {
-        border-top: 6px solid var(--umsl-red);
-        border-right: 6px solid var(--umsl-red);
+        display: block;
+        margin: auto;
+        width: 50%;
     }
 
     .tag-container {

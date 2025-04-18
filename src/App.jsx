@@ -80,21 +80,19 @@ export default function UMSLPlantRecommender() {
 
     const recommendPlants = () => {
         const scored = allPlants.map((plant) => {
+            let sus_case_score = 0;
+            let use_case_score = 0;
             let score = 0;
             const tags = plant.tags || {};
 
             if (
-                selectedSustainability.length &&
-                selectedSustainability.every((tag) =>
+                selectedSustainability.length || selectedUseCase.length &&
+                selectedSustainability.every((tag) || selectedUseCase.every((tag) =>
                     tags.sustainability?.includes(tag)
                 )
-            ) {
-                score += selectedSustainability.length;
-            }
-
-            if (selectedUseCase && tags.use_cases?.includes(selectedUseCase)) {
-                score++;
-            }
+            ) ){sus_case_score += selectedSustainability.length;}
+            {use_case_score += selectedUseCase.length;}
+            {score = use_case_score+sus_case_score;}
 
             return { plant, score };
         });
@@ -104,6 +102,7 @@ export default function UMSLPlantRecommender() {
             .sort((a, b) => b.score - a.score);
         setRecommendations(showAll ? filtered : filtered.slice(0, 15));
     };
+
 
     const showPlantDetails = (plant) => {
         setSelectedPlant(plant);
@@ -149,12 +148,12 @@ export default function UMSLPlantRecommender() {
                             )
                         }
                     >
-                        <option value="pollinator">Pollinator</option>
-                        <option value="carbon_capture">Carbon Capture</option>
-                        <option value="water_capture">Water Capture</option>
-                        <option value="erosion_control">Erosion Control</option>
-                        <option value="groundcover">Groundcover</option>
-                        <option value="deer_resistant">Deer Resistant</option>
+                        <option value="Pollinator">Pollinator</option>
+                        <option value="Carbon Capture">Carbon Capture</option>
+                        <option value="Water Capture">Water Capture</option>
+                        <option value="Erosion Control">Erosion Control</option>
+                        <option value="Groundcover">Groundcover</option>
+                        <option value="Deer Resistant">Deer Resistant</option>
                     </select>
                 </div>
             )}
@@ -169,13 +168,12 @@ export default function UMSLPlantRecommender() {
                         className="content-container"
                     >
                         <option value="">--</option>
-                        <option value="rain_garden">Rain Garden</option>
-                        <option value="raised_bed">Raised Bed</option>
-                        <option value="rainscape">Rainscape</option>
-                        <option value="hydroponic">Hydroponic</option>
-                        <option value="woodland_shade">Woodland Shade Garden</option>
-                        <option value="prairie_patch">Prairie Patch</option>
-                        <option value="pollinator_strip">Pollinator Strip</option>
+                        <option value="Rain Garden">Rain Garden</option>
+                        <option value="Raised Bed">Raised Bed</option>
+                        <option value="Rainscape">Rainscape</option>
+                        <option value="Woodland Shade">Woodland Shade Garden</option>
+                        <option value="Prairie Patch">Prairie Patch</option>
+                        <option value="Pollinator Strip">Pollinator Strip</option>
                     </select>
                 </div>
             )}
@@ -190,21 +188,24 @@ export default function UMSLPlantRecommender() {
             {selectedPlant && (
                 <div className="content-container">
                     <div className="header-container">
-                        <h3>{selectedPlant.common_name}</h3>
-                        <h4>{selectedPlant.genus}</h4>
+                        <h2>Common Name:</h2>
+                        <h4>{selectedPlant.common_name.toUpperCase()}</h4>
+                        <img
+                            className="plant-image-container"
+                            src={
+                                genusImages[selectedPlant.genus] ||
+                                "/plantImgs/default-genus.jpg"
+                            }
+                            alt={`Image of ${selectedPlant.common_name}`}
+                        />
+                        <h4>Family: {selectedPlant.genus}</h4>
                     </div>
-                    <img
-                        className="plant-image-container"
-                        src={
-                            genusImages[selectedPlant.genus] ||
-                            "/plantImgs/default-genus.jpg"
-                        }
-                        alt={`Image of ${selectedPlant.common_name}`}
-                    />
+                    <section className={'mini-container'}>
                     <strong>Scientific Name:</strong> {selectedPlant.scientific_name}<br />
                     <strong>Sustainability Tags:</strong> {selectedPlant.tags?.sustainability?.join(", ") || "None"}<br />
                     <strong>Use Case Tags:</strong> {selectedPlant.tags?.use_cases?.join(", ") || "None"}<br />
-                    <strong>Overall Sustainability Score (Zone 7a):</strong> {selectedPlant.score?.join(", ") || "None"}
+                    <strong>Overall Sustainability Score (Zone 7a):</strong> {selectedPlant.getUse?.join(", ") || "None"}
+                    </section>
                 </div>
             )}
 
@@ -213,14 +214,14 @@ export default function UMSLPlantRecommender() {
                     <div className="header-container">
                         <h3>🌾 Recommendations</h3>
                     </div>
-                    <ul>
+                    <ul className ='results-list'>
                         {recommendations.map(({ plant }, index) => (
-                            <li
+                            <li className ="plant-details"
                                 key={index}
-                                className="cursor-pointer mb-2 hover:text-green-600"
+
                                 onClick={() => showPlantDetails(plant)}
                             >
-                                <strong>{plant.common_name}</strong><br />
+                                <strong>{plant.common_name.toUpperCase()}</strong><br />
                                 <em>{plant.scientific_name}</em>
                             </li>
                         ))}
@@ -228,7 +229,7 @@ export default function UMSLPlantRecommender() {
                     {!showAll && recommendations.length >= 15 && (
                         <button
                             onClick={() => setShowAll(true)}
-                            className="mt-4 px-3 py-1 bg-green-600 text-white rounded"
+                            className="btn"
                         >
                             Show more plants
                         </button>
