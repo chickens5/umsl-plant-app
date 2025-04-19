@@ -66,6 +66,7 @@ body {
 .results-list   {
     height: 100%;
     width: 100%;
+    background: #76232f;
     margin: 50px auto;
     padding: 30px;
     border-radius: 8px;
@@ -86,7 +87,7 @@ body {
 
 
 .header-container {
-        background-color: rgba(234, 171, 0, 0.62);
+        background-color: rgb(234, 171, 0);
         border-left: 6px solid #78BE21FF;
         border-right: 6px solid #78BE21FF;
         border-radius: 1rem;
@@ -94,7 +95,6 @@ body {
         text-align: center;
         margin: 2rem auto;
         padding: 1.5rem;
-        max-width: 960px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         font-size: 2rem;
         font-weight: bold;
@@ -145,7 +145,7 @@ body {
         border: none;
         border-radius: 0.5rem;
     }
-    .plant-details {
+    .plant-list {
         border: 1px solid #ccc;
         padding: 1rem;
         border-left: 6px solid var(--umsl-gold);
@@ -154,16 +154,37 @@ body {
         background-color: #fff;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-.plant-details:hover {
+.plant-list:hover {
     transform: scale(1.02);
     box-shadow: 0 12px 36px rgba(59, 63, 66, 0.4);
 }
+
+.plant-details {
+    border: 20px solid rgba(186, 12, 47, 0.66);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem auto;
+
+}
     .plant-image-container
     {
-        display: block;
-        margin: auto;
-        width: 50%;
+        width: 100%;
+        border: 20px solid rgba(186, 12, 47, 0.66);
+        border-radius: 8px;
+        background-color: #ffffff;
+        padding: 1rem;
+        width: 100%;
+        margin: 1rem auto;
+
+        .plant-image {
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
     }
+
 
     .tag-container {
         background-color: #f9f9f9;
