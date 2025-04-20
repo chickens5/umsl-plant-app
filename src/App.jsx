@@ -106,13 +106,13 @@ const genusDetails = {
 export default function UMSLPlantRecommender() {
     const [allPlants, setAllPlants] = useState([]);
     const [selectedSustainability, setSelectedSustainability] = useState([]);
-    const [selectedUseCase, setSelectedUseCase] = useState("");
-    const [mode, setMode] = useState(null);
     const [recommendations, setRecommendations] = useState([]);
     const [selectedPlant, setSelectedPlant] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
     const plantsPerPage = 10;
     const plantDetailRef = useRef(null);
+    const [loading, setLoading] = useState(false);
+
 
     useEffect(() => {
         fetch("/categorized_plants.json")
@@ -122,10 +122,18 @@ export default function UMSLPlantRecommender() {
     }, []);
 
     useEffect(() => {
-        setRecommendations([]);
+        setLoading(true);
+        const scored = allPlants.map(plant => {
+            const score = getSustainabilityScore(plant);
+            return { plant, score };
+        });
+
+        const filtered = scored.filter(p => p.score > 0).sort((a, b) => b.score - a.score);
+        setTimeout(() => setLoading(false), 800); //brief delay for smoothness
+        setRecommendations(filtered);
         setSelectedPlant(null);
         setCurrentPage(1);
-    }, [selectedSustainability, selectedUseCase, mode]);
+    }, [selectedSustainability]);
 
     const getSustainabilityScore = (plant) => {
         const tags = plant.tags || {};
@@ -134,28 +142,20 @@ export default function UMSLPlantRecommender() {
         return Math.round(matchCount * 5);
     };
 
-    const recommendPlants = () => {
-        const scored = allPlants.map(plant => {
-            const score = getSustainabilityScore(plant);
-            return { plant, score };
-        });
-
-        const filtered = scored.filter(p => p.score > 0).sort((a, b) => b.score - a.score);
-        setRecommendations(filtered);
-        setCurrentPage(1);
-    };
-
     const showPlantDetails = (plant, score) => {
+        setLoading(true);
         setSelectedPlant({ ...plant, score });
-        setTimeout(() => plantDetailRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
+        setTimeout(() => {
+            plantDetailRef.current?.scrollIntoView({ behavior: "smooth" });
+            setLoading(false);
+        }, 200);
     };
+
 
     const indexOfLastPlant = currentPage * plantsPerPage;
     const indexOfFirstPlant = indexOfLastPlant - plantsPerPage;
     const currentPlants = recommendations.slice(indexOfFirstPlant, indexOfLastPlant);
     const totalPages = Math.ceil(recommendations.length / plantsPerPage);
-
-
 
     return (
         <div className="page-container">
@@ -166,19 +166,8 @@ export default function UMSLPlantRecommender() {
             <div className="content-container">
                 <h4 className="mini-container">
                     Welcome to UMSL Sustainability's Native Plant Recommender! Pick out
-                    native plants by Sustainability category or Space.
+                    native plants by Sustainability category.
                 </h4>
-                <section className="nav-links">
-                    <button onClick={() => setMode("sustainability")} className="btn">
-                        🌱 By Sustainability
-                    </button>
-                    <button onClick={() => setMode("space")} className="btn">
-                        🌧️ By Native Space
-                    </button>
-                </section>
-            </div>
-
-            {mode === "sustainability" && (
                 <div className="header-container">
                     <h4>Select Plants based on Sustainability Goals:</h4>
                     <select
@@ -200,66 +189,48 @@ export default function UMSLPlantRecommender() {
                         <option value="Deer Resistant">Deer Resistant</option>
                     </select>
                 </div>
-            )}
-
-            {mode === "space" && (
-                <div className="header-container">
-                    <h4>Select Native Plants based on Space Type:</h4>
-                    <select
-                        value={selectedUseCase}
-                        onChange={(e) => setSelectedUseCase(e.target.value)}
-                        size="6"
-                        className="content-container"
-                    >
-                        <option value="">--</option>
-                        <option value="Rain Garden">Rain Garden</option>
-                        <option value="Raised Bed">Raised Bed</option>
-                        <option value="Rainscape">Rainscape</option>
-                        <option value="Woodland Shade">Woodland Shade Garden</option>
-                        <option value="Prairie Patch">Prairie Patch</option>
-                        <option value="Pollinator Strip">Pollinator Strip</option>
-                    </select>
-                </div>
-            )}
-
-            {(mode === "sustainability" && selectedSustainability.length) ||
-            (mode === "space" && selectedUseCase) ? (
-                <button onClick={recommendPlants} ref={plantDetailRef} className="btn">
-                    🌻 Show Recommended Plants
-                </button>
-            ) : null}
+            </div>
 
             {selectedPlant && (
                 <div className="results-list">
                     <div className="plant-details">
-                    <div className="header-container">
-                        <strong>Scientific Name</strong><br />
-                        <h4>{selectedPlant.scientific_name}</h4>
-                        <h2>Common Name:</h2>
-                        <strong>{selectedPlant.common_name}</strong>
-                    </div>
-                        <section className={'mini-container'}>
-                            <strong>Sustainability Tags:</strong> {selectedPlant.tags?.sustainability?.join(", ") || "None"}<br />
-                            <strong>Use Case Tags:</strong> {selectedPlant.tags?.use_cases?.join(", ") || "None"}<br />
-                            <strong>Sus Score: {
-                                "★".repeat(selectedPlant.score || 0) +
-                                "☆".repeat(5 - (selectedPlant.score || 0))
-                            }</strong><br />
-                        </section>
-                        <div className ="plant-image-container">
-                            <strong>Family</strong>
-                            <h4>{selectedPlant.genus}</h4>
-                        <img
-                            className="plant-image"
-                            src={
-                                genusImages[selectedPlant.genus] ||
-                                "/plantImgs/default-genus.jpg"
-                            }
-                            alt={`Image of ${selectedPlant.common_name}`}
-                        />
-                        <h6>{genusDetails[selectedPlant.genus] || selectedPlant.genus}</h6>
+                        <div className="header-container">
+                            <strong ref={plantDetailRef}>Scientific Name</strong><br />
+                            <h4>{selectedPlant.scientific_name}</h4>
+                            <h2>Common Name:</h2>
+                            <strong>{selectedPlant.common_name}</strong>
                         </div>
+                        <div className="plant-image-container">
+                            <img
+                                className="plant-image"
+                                src={
+                                    genusImages[selectedPlant.genus] ||
+                                    "/plantImgs/default-genus.jpg"
+                                }
+                                alt={`Image of ${selectedPlant.common_name}`}
+                            />
+                            <strong>Family</strong>
+                            <h3>{selectedPlant.genus}</h3>
+                            <section className={'mini-container'}>
+                                <h2>Sustainability Tags:</h2>
+                                <p>{selectedPlant.tags?.sustainability?.join(", ") || "None"}</p>
+                                <h2>Use Case Tags:</h2>
+                                <p> {selectedPlant.tags?.use_cases?.join(", ") || "None"}</p>
+                                <strong>Sus Score: {
+                                    "★".repeat(selectedPlant.score || 0) +
+                                    "☆".repeat(5 - (selectedPlant.score || 0))
+                                }</strong><br />
+                            </section>
+                            <h4>{genusDetails[selectedPlant.genus] || selectedPlant.genus}</h4>
+                        </div>
+                    </div>
                 </div>
+            )}
+
+
+            {loading && (
+                <div className="loading-message">
+                    <h4>🌱 Loading, please wait...</h4>
                 </div>
             )}
 
