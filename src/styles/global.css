@@ -195,10 +195,9 @@ body {
     margin: 1rem auto;
 }
 .plant-tag-container {
-    display: flex;
+    display: contents;
     margin: 1.5rem auto;
-    padding: 1rem auto;
-    border: 20px solid rgba(0, 255, 165, 0.66);
+    border: 20px solid rgb(120, 190, 33);
     border-radius: 8px;
     text-align: center;
     box-shadow:
@@ -211,6 +210,7 @@ body {
     .plant-image-container
     {
         display: flex;
+        padding: 10px;
         justify-content: center;
         margin-top: 10px;
 
@@ -220,21 +220,6 @@ body {
             object-fit: cover;
             border-radius: 8px;
         }
-    }
-
-
-    .tag-container {
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        padding: 1rem 1.5rem;
-        margin: 1rem 0;
-        box-shadow:
-                0 2px 4px rgb(186, 12, 47),
-                0 4px 8px rgb(234, 171, 0),
-                0 6px 12px rgb(120, 190, 33);
-        line-height: 1.6;
-        font-size: 1rem;
-        color: #000000;
     }
     @media (max-width: 768px) {
 

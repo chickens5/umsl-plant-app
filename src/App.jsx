@@ -1,25 +1,22 @@
 import React, { useState, useEffect, useRef } from "react"; // add useRef
 import './styles/global.css';
 import './styles/components.css'
-
+/* I nned to get the genus from categorized plants because all these genus are not correct */
 
 const genusImages = {
     Abronia: "/plantImgs/abronia.jpg",
     Acer: "/plantImgs/acer.jpg",
     Quercus: "/plantImgs/quercus.jpg",
     Salix: "/plantImgs/salix.jpg",
-    Liriodendron: "/plantImgs/liriodendron.jpg",
     Asclepias: "/plantImgs/asclepias.jpg",
+    Baptisia: "/plantImgs/baptisia.jpg",
     Carya: "/plantImgs/carya.jpg",
-    Pinus: "/plantImgs/pinus.jpg",
     Betula: "/plantImgs/betula.jpg",
     Tilia: "/plantImgs/tilia.jpg",
     Ulmus: "/plantImgs/ulmus.jpg",
     Platanus: "/plantImgs/platanus.jpg",
     Juniperus: "/plantImgs/juniperus.jpg",
-    Liquidambar: "/plantImgs/liquidambar.jpg",
     Fraxinus: "/plantImgs/fraxinus.jpg",
-    Fagus: "/plantImgs/fagus.jpg",
     Syringa: "/plantImgs/syringa.jpg",
     Rudbeckia: "/plantImgs/rudbeckia.jpg",
     Echinacea: "/plantImgs/echinacea.jpg",
@@ -34,23 +31,16 @@ const genusImages = {
     Cichorium: "/plantImgs/cichorium.jpg",
     Anemone: "/plantImgs/anemone.jpg",
     Penstemon: "/plantImgs/penstemon.jpg",
-    Astilbe: "/plantImgs/astilbe.jpg",
     Conoclinium: "/plantImgs/conoclinium.jpg",
     Gaillardia: "/plantImgs/gaillardia.jpg",
     Salvia: "/plantImgs/salvia.jpg",
     Lobelia: "/plantImgs/lobelia.jpg",
     Achillea: "/plantImgs/achillea.jpg",
-    Digitalis: "/plantImgs/digitalis.jpg",
     Helenium: "/plantImgs/helenium.jpg",
-    Aster: "/plantImgs/aster.jpg",
-    Chrysanthemum: "/plantImgs/chrysanthemum.jpg",
     Caltha: "/plantImgs/caltha.jpg",
     Sedum: "/plantImgs/sedum.jpg",
-    Gaura: "/plantImgs/gaura.jpg",
     Trifolium: "/plantImgs/trifolium.jpg",
-    Clematis: "/plantImgs/clematis.jpg",
-    Thymus: "/plantImgs/thymus.jpg",
-    Lavandula: "/plantImgs/lavandula.jpg",
+    Clematis: "/plantImgs/clematis.jpg"
 };
 
 const genusDetails = {
@@ -208,12 +198,7 @@ export default function UMSLPlantRecommender() {
                             <strong ref={plantDetailRef}>Scientific Name</strong><br />
                             <h4>{selectedPlant.scientific_name}</h4>
                             <h2>Common Name:</h2>
-                            <strong>{selectedPlant.common_name}</strong>
-                        </div>
-                        <div className="plant-image-container">
-                            <img
-                                className="plant-image"
-                                src={`${process.env.PUBLIC_URL}/plantImgs/${selectedPlant.genus}.jpg` || selectedPlant.genus}/>
+                            <strong>{selectedPlant.common_name.toUpperCase()}</strong>
                         </div>
                         <section className={'plant-tag-container'}>
                             <h4>Sustainability Tags:</h4>
@@ -227,8 +212,16 @@ export default function UMSLPlantRecommender() {
                         </section>
                     <div>
                             <h3>Family</h3>
-                            <h4>{selectedPlant.genus}</h4>
+                        <h4>{selectedPlant.genus}</h4>
+                        <div className="plant-image-container">
+                            <img
+                                className="plant-image"
+                                src={`${process.env.PUBLIC_URL}/plantImgs/${selectedPlant.genus}.jpg` || selectedPlant.genus}/>
+                        </div>
+                        <section className ='plant-details'>
                             <p>{genusDetails[selectedPlant.genus] || selectedPlant.genus}</p>
+                        </section>
+
                     </div>
                     </div>
                 </div>
