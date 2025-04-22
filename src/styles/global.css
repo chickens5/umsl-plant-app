@@ -13,12 +13,19 @@ body {
 }
 
 
-    h2 {
+    h2, h3 {
         font-size: 1.75rem;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
         margin-bottom: 0.75rem;
 
+    }
+
+    h4, h5, h6 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        font-family: "Oswald", sans-serif;
+        margin-bottom: 0.75rem;
     }
 
     p, li {
@@ -49,7 +56,7 @@ body {
 .page-container {
     max-width: 1200px; /* Keep all pages centered & aligned */
     margin: 0 auto;
-    width: auto;
+    width: 100%;
     outline: black solid 3.3px;
     padding: 35px;
 }
@@ -144,6 +151,7 @@ body {
         border-radius: 0.5rem;
         font-size: 1.5rem;
         width: 100%;
+        max-heigh: 120%;
         max-width: 480px;
         margin: 1rem auto;
         padding: 1rem 1.5rem;
@@ -185,22 +193,32 @@ body {
     padding: 1rem;
     width: 100%;
     margin: 1rem auto;
-
+}
+.plant-tag-container {
+    display: flex;
+    margin: 1.5rem auto;
+    padding: 1rem auto;
+    border: 20px solid rgba(0, 255, 165, 0.66);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow:
+            0 2px 6px rgba(213, 0, 50, 0.3),      /* UMSL red */
+            0 4px 12px rgba(253, 184, 39, 0.3),   /* UMSL gold */
+            0 6px 18px rgba(120, 190, 33, 0.25);  /* accent green */
+    color: var(--umsl-dark-gray);
+    line-height: 1.6;
 }
     .plant-image-container
     {
-        width: 100%;
-        border: 20px solid rgba(186, 12, 47, 0.66);
-        border-radius: 8px;
-        background-color: #ffffff;
-        padding: 1rem;
-        width: 100%;
-        margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
 
         .plant-image {
-            display: block;
-            margin: auto;
             width: 50%;
+            max-height: 120%;
+            object-fit: cover;
+            border-radius: 8px;
         }
     }
 
