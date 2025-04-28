@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMSL Carousel</title>
+  <style>
+    :root {
+      --umsl-red: #D50032;
+      --umsl-gold: #FDB827;
+      --umsl-gray: #E6E6E6;
+      --umsl-deep-red: #A6192E;
+      --umsl-cool-gray: #5B6770;
+      --umsl-dark-gray: rgb(59, 63, 66);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      font-family: "Oswald", sans-serif;
+    }
+    .carousel {
+      min-height: 100vh;
+      margin: 2rem auto;
+      padding: 1rem;
+      position: relative;
+    }
+
+    .carousel-slide {
+      border-left: 6px solid var(--umsl-gold);
+      border-radius: 1.8rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: none;
+    }
+
+    .carousel-slide.active {
+      display: block;
+    }
+
+    .carousel-slide:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    .carousel-nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .carousel-nav button {
+      background: var(--umsl-gold);
+      color: black;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 2rem;
+      cursor: pointer;
+    }
+
+    .red { background-color: var(--umsl-red); color: white; }
+    .gold { background-color: var(--umsl-gold); color: black; }
+    .gray { background-color: var(--umsl-gray); color: var(--umsl-dark-gray); }
+    .deep-red { background-color: var(--umsl-deep-red); color: white; }
+
+    h2 {
+      font-size: 1.75rem;
+      text-align: center;
+      font-weight: bolder;
+      color: white;
+      background: black;
+      font-family: "Oswald", sans-serif;
+      margin-bottom: 0.75rem;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      font-family: "Oswald", sans-serif;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      padding-left: 0.5rem;
+    }
+
+    a {
+      text-decoration: underline;
+      color: inherit;
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+    }
+
+    .embed {
+      margin-top: 1rem;
+      max-width: 100%;
+    }
+
+    .header-container {
+      background-color: var(--umsl-gold);
+      border-left: 6px solid var(--umsl-red);
+      border-right: 6px solid var(--umsl-red);
+      border-radius: 1rem;
+      box-shadow: 0 8px 24px rgba(59, 63, 66, 0.3); /* UMSL dark gray as shadow */
+      text-align: center;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      max-width: 960px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      color: var(--umsl-dark-gray);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .header-container:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 36px rgba(59, 63, 66, 0.4);
+    }
+
+    .mini-container {
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+      width: 100%;
+      max-width: 480px;
+      margin: 1rem auto;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      box-shadow:
+              0 2px 6px rgba(213, 0, 50, 0.3),      /* UMSL red */
+              0 4px 12px rgba(253, 184, 39, 0.3),   /* UMSL gold */
+              0 6px 18px rgba(120, 190, 33, 0.25);  /* accent green */
+      color: var(--umsl-dark-gray);
+      line-height: 1.6;
+      font-weight: 600;
+    }
+
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .carousel {
+        padding: 0.5rem;
+        margin: 1rem auto;
+        max-width: 768px;
+        width: auto;
+      }
+
+      .carousel-slide {
+        padding: 1rem;
+        border-radius: 1rem;
+        max-width: 768px;
+        width: auto;
+      }
+
+      .header-container {
+        padding: 1rem;
+        font-size: 1.3rem;
+        width: auto;
+      }
+
+      .mini-container {
+        font-size: 1.2rem;
+        padding: 0.55rem .8rem;
+        width: auto;
+      }
+
+      .carousel-nav button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p, li, h4, h5 {
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      iframe {
+        height: 350px;
+      }
+
+      ul {
+        padding-left: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+<div class="carousel">
+  <div class="carousel-slide deep-red active">
+    <section class="header-container">
+      <h2>UMSL Sustainability | Events</h2>
+    </section>
+    <p class ='mini-container'>Curious about our Events & how to participate? Scroll down to click through the carousel or check out our Instagram.</p>
+      <section class="header-container">
+        <h2><a href="https://maps.app.goo.gl/EmthJA7hVmodyPjn9">UMSL Community Garden</a></h2>
+        <iframe class ='embed' src="https://www.instagram.com/p/DIBoyVpxwGE/embed" allowtransparency="true" allowfullscreen="true"></iframe>
+      </section>
+      <section class="header-container">
+        <h2>Native Recreational Garden</h2>
+        <iframe class='embed' src="https://www.instagram.com/p/DGwBo_ySQqr/embed" allowtransparency="true" allowfullscreen="true"></iframe>
+      </section>
+  </div>
+
+  </div>
+  <div class="carousel-slide gray">
+    <section class="header-container">
+      <h2>Community and Ecological Restoration Through Justice</h2>
+    </section>
+      <p class="mini-container">At UMSL Sustainability, our mission is to educate, and support one another to advance sustainable living.
+       Join us in regenerating our communities and ecosystems.</p>
+    <section class="header-container">
+      <iframe class ='embed' src="https://www.instagram.com/p/DGgm_huSC0x/embed" allowtransparency="true" allowfullscreen="true"></iframe>
+    </section>
+  </div>
+
+  <div class="carousel-slide deep-red">
+    <section class="header-container">
+      <h2>Hands-On Sustainability: Cleanups, Hacks, and More</h2>
+    </section>
+    <p class="mini-container">Join us at a Trash Cleanup, Invasive Honeysuckle Hack, or Native Gardening Event! </p>
+    <section class="header-container">
+      <iframe class ='embed' src ="https://www.instagram.com/p/DBhVqwyy6bq/embed"></iframe>
+      </section>
+  </div>
+
+  <div class="carousel-slide gray">
+    <section class="header-container">
+      <h2>Clothing Swaps: FREE CLOTHES FOR ALL</h2>
+    </section>
+    <p class = "mini-container">Join us at one of our regular FREE clothing swaps and pick out something for your closet or prepare for winter with a nice blanket!</p>
+    <section class ="header-container">
+      <iframe class ='embed' src="https://www.instagram.com/p/DCpUJVTyNEK/embed" allowtransparency="true" allowfullscreen="true"></iframe>
+    </section>
+  </div>
+
+  <div class="carousel-nav">
+    <button onclick="prevSlide()">← Go Back</button>
+    <button onclick="nextSlide()">View More →</button>
+  </div>
+</div>
+
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.carousel-slide');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+      slide.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    showSlide(currentSlide);
+  });
+
+</script>
+
+</body>
+</html>

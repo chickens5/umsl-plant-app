@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMSL Sus Wordpress Carousel</title>
+  <style>
+    :root {
+      --umsl-red: #D50032;
+      --umsl-gold: #FDB827;
+      --umsl-gray: #E6E6E6;
+      --umsl-deep-red: #A6192E;
+      --umsl-cool-gray: #5B6770;
+      --umsl-dark-gray: rgb(59, 63, 66);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      font-family: "Oswald", sans-serif;
+    }
+    .carousel {
+      min-height: 100vh;
+      margin: 2rem auto;
+      padding: 1rem;
+      position: relative;
+    }
+
+    .carousel-slide {
+      border-left: 6px solid var(--umsl-gold);
+      border-radius: 1.8rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: none;
+    }
+
+    .carousel-slide.active {
+      display: block;
+    }
+
+    .carousel-slide:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    .carousel-nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .carousel-nav button {
+      background: var(--umsl-gold);
+      color: black;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 2rem;
+      cursor: pointer;
+    }
+
+    .red { background-color: var(--umsl-red); color: white; }
+    .gold { background-color: var(--umsl-gold); color: black; }
+    .gray { background-color: var(--umsl-gray); color: var(--umsl-dark-gray); }
+    .deep-red { background-color: var(--umsl-deep-red); color: white; }
+
+    h2 {
+      font-size: 1.75rem;
+      text-align: center;
+      font-weight: bolder;
+      color: white;
+      background: black;
+      font-family: "Oswald", sans-serif;
+      margin-bottom: 0.75rem;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      font-family: "Oswald", sans-serif;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      padding-left: 0.5rem;
+    }
+
+    a {
+      text-decoration: underline;
+      color: inherit;
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+    }
+
+    .embed {
+      margin-top: 1rem;
+      max-width: 100%;
+    }
+    .header-container {
+      background-color: #A6192E;
+      border-left: 6px solid #78BE21FF;
+      border-right: 6px solid #78BE21FF;
+      border-radius: 1rem;
+      box-shadow: 0 8px 24px rgba(59, 63, 66, 0.3); /* UMSL dark gray as shadow */
+      text-align: center;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .header-container:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 36px rgba(59, 63, 66, 0.4);
+    }
+
+    .mini-container {
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+      width: 100%;
+      max-width: 480px;
+      margin: 1rem auto;
+      padding: 1rem 1.5rem;
+      text-align: center;
+      box-shadow:
+              0 2px 6px rgba(213, 0, 50, 0.3),      /* UMSL red */
+              0 4px 12px rgba(253, 184, 39, 0.3),   /* UMSL gold */
+              0 6px 18px rgba(120, 190, 33, 0.25);  /* accent green */
+      color: var(--umsl-dark-gray);
+      line-height: 1.6;
+      font-weight: 600;
+    }
+
+
+
+    iframe {
+      position: relative;
+      max-width: 100%;
+      width: 100%;
+      height: 55rem;
+      max-height: auto;
+      border: none;
+      border-radius: 0.75rem;
+    }
+
+    .insta-text-container {
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin: 1rem 0;
+      box-shadow:
+              0 2px 4px rgb(186, 12, 47),
+              0 4px 8px rgb(234, 171, 0),
+              0 6px 12px rgb(120, 190, 33);
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #000000;
+    }
+    @media (max-width: 768px) {
+      .carousel {
+        padding: 0.5rem;
+        margin: 1rem auto;
+        max-width: 768px;
+        width: auto;
+      }
+
+      .carousel-slide {
+        padding: 1rem;
+        border-radius: 1rem;
+        max-width: 768px;
+        width: auto;
+      }
+
+      .header-container {
+        padding: 1rem;
+        font-size: 1.3rem;
+        width: auto;
+      }
+
+      .mini-container {
+        font-size: 1.2rem;
+        padding: 0.55rem .8rem;
+        width: auto;
+      }
+
+      .carousel-nav button {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p, li, h4, h5 {
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      .insta-text-container {
+        padding: 0.75rem 1rem;
+        font-size: 0.95rem;
+      }
+
+      iframe {
+        height: 350px;
+      }
+
+      ul {
+        padding-left: 1rem;
+        margin-left: 0.5rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+<div class="carousel-nav">
+  <button onclick="prevSlide()">← Go Back</button>
+  <button onclick="nextSlide()">View More →</button>
+</div>
+<div class="carousel">
+  <div class="carousel-slide gold">
+    <section class ='header-container'>
+      <h2>greenUMSL Blog</h2>
+    </section>
+    <p class="mini-container">Check out the UMSL Sustainability Blog! We write consistent event updates, garden posts, ecological/political discussions, and more to engage with the St. Louis community.</p>
+    <div class="embed">
+      <iframe src="https://greenumsl.wordpress.com/" title="Get Involved!"></iframe>
+    </div>
+  </div>
+  <div class="carousel-slide gold">
+    <section class= 'header-container'>
+      <h2>Why Host Upcycling & Thrifting Events</h2>
+    </section>
+    <p class="mini-container">Join us for a creative and sustainable crafting session! Learn how to transform used coffee grounds and other materials into beautiful, useful items.</p>
+    <div class="embed">
+      <iframe src="https://greenumsl.wordpress.com/2024/10/15/coffeecrafting-upcycling-event/"></iframe>
+    </div>
+  </div>
+  <div class="carousel-slide">
+    <section class= 'header-container'>
+      <h2>Garden & other Project Updates</h2>
+    </section>
+    <p class="mini-container">Check out the latest developments in our community garden! We're growing food, building community, and creating sustainable spaces.</p>
+    <div class="embed">
+      <iframe src="https://greenumsl.wordpress.com/2024/10/15/community-garden-update-10-8-24/"></iframe>
+    </div>
+  </div>
+  <div class="carousel-slide">
+    <section class='header-container'>
+      <h2>Trash Bash Event Recap</h2>
+    </section>
+
+
+    <p class="mini-container">See how our community came together to clean up and make a difference! The Trash Bash event was a great success in environmental stewardship.</p>
+    <ul>
+      <li>🗑️ Clean-up achievements</li>
+      <li>🤝 Community involvement</li>
+      <li>♻️ Recycling impact</li>
+    </ul>
+    <div class="embed">
+      <iframe src="https://greenumsl.wordpress.com/2024/11/05/trash-bash-10-24-24/"></iframe>
+    </div>
+  </div>
+  <div class="carousel-nav">
+    <button onclick="prevSlide()">← Go Back</button>
+    <button onclick="nextSlide()">View More →</button>
+  </div>
+</div>
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.carousel-slide');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+      slide.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    showSlide(currentSlide);
+  });
+</script>
+</body>
+</html>

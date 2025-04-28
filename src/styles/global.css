@@ -4,12 +4,16 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
-    color: #000000;
+    font-family: 'Montserrat Black', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(rgba(251, 101, 101, 0) 50%), url('./greenTeam.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
 }
 
 
@@ -43,7 +47,7 @@ body {
         text-decoration: underline;
         color: inherit;
         font-weight: 600;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
         padding: 0.1rem 0.3rem;
         border-radius: 4px;
     }
@@ -63,8 +67,9 @@ body {
 .loading-message {
     text-align: center;
     padding: 1rem;
+    background: black;
     font-size: 1.2rem;
-    color: #2c3e50;
+    color: rgba(79, 228, 4, 0.69);
     animation: fadeIn 0.3s ease-in-out;
 }
 
@@ -75,20 +80,24 @@ body {
 
 
 .app-container {
+    background: #ba0c2f;
     max-width: 900px;
-    width: 90%;
-    margin: 50px auto;
-    padding: 30px;
-    background: rgba(93, 102, 111, 0.3);
-    border-radius: 8px;
-    box-shadow: #ff6a14 5px 1px 1px;
+    align-items: center;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: -3.3px 2px 12px rgb(255, 183, 0); /* UMSL dark gray as shadow */
     text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .results-list   {
     height: 100%;
     width: 100%;
-    background: #76232f;
+    background: #fbd872;
     margin: 50px auto;
     padding: 30px;
     border-radius: 8px;
@@ -97,7 +106,7 @@ body {
 }
 
 .content-container {
-    background: rgb(186, 12, 47);
+    background: #76232f;
     max-width: 900px;
     align-items: center;
     width: 100%;
@@ -151,7 +160,7 @@ body {
         border-radius: 0.5rem;
         font-size: 1.5rem;
         width: 100%;
-        max-heigh: 120%;
+        max-height: 120%;
         max-width: 480px;
         margin: 1rem auto;
         padding: 1rem 1.5rem;
@@ -187,7 +196,6 @@ body {
 }
 
 .plant-details {
-    border: 20px solid rgba(186, 12, 47, 0.66);
     border-radius: 8px;
     background-color: #ffffff;
     padding: 1rem;
@@ -210,6 +218,7 @@ body {
     .plant-image-container
     {
         display: flex;
+        border: 20px solid rgb(120, 190, 33);
         padding: 10px;
         justify-content: center;
         margin-top: 10px;
@@ -284,6 +293,81 @@ body {
 .diod__active + .diod {
     background: linear-gradient(to right, #5cd68d, #567676 45%);
 }
+/* BUTTONS & PAGINATION */
+
+.pagbuttons-container {
+    display: flex;
+    font-weight: bolder;
+    background-color: rgb(255, 106, 20);
+    border-radius: 8px;
+    box-shadow:  1px 2px 3px rgb(120, 190, 33);
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.pagination-button {
+    background: #eaab00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.pageNum-button {
+        background-color: #e0e0e0;
+        color: #666;
+        cursor: not-allowed;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.pagination-button:hover {
+    background-color: #cc0000; /* Lighter Red */
+    transform: translateY(-2px);
+}
+
+.pagination-button.active {
+    background-color: #f1c40f; /* UMSL Gold */
+    color: #990000;
+}
+
+.pagination-button:disabled {
+    background-color: #e0e0e0;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.scroll-to-bottom-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    font-size: 40px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.scroll-to-bottom-button:hover {
+    background-color: #218838;
+}
+
+.scroll-to-bottom-button:focus {
+    outline: none;
+}
+
 
 .btn:before {
     content: "";
@@ -310,6 +394,7 @@ body {
     background: radial-gradient(ellipse 140% 70% at 50% 100%, hsla(144deg 100% 70%/var(--btn-reflex-bottom-1)) 0%, hsla(144deg 100% 70%/var(--btn-reflex-bottom-2)) 30%, rgba(102, 255, 163, 0) 100%), radial-gradient(ellipse 140% 70% at 50% 0%, hsla(144deg 100% 70%/var(--btn-reflex-top-1)) 0%, hsla(144deg 100% 70%/var(--btn-reflex-top-2)) 30%, rgba(102, 255, 163, 0) 100%), radial-gradient(ellipse at 50% 10%, var(--btn-glow-inner), var(--btn-glow-outer)), radial-gradient(var(--btn-inner), var(--btn-outer));
     border: none;
     font-size: 24px;
+    margin: 20px;
     width: 100%;
     height: 60px;
     font-family: "Raleway", sans-serif;
@@ -380,23 +465,4 @@ body {
     --btn-reflex-top-1: 15%;
     --btn-reflex-top-2: 7%;
     box-shadow: inset 0 3px 2px -3px rgba(153, 255, 194, 0.5), inset 0 17px 2px -16px rgba(153, 255, 194, 0.2), inset 0 4px 8px 5px rgba(9, 11, 10, 0.06), 0 2px 0 1px #1a1e1c, 0 3px 0 -1px rgba(102, 204, 143, 0), inset 0 -1px 2px 1px rgba(255, 255, 255, 0), 0 1px 2px rgba(255, 255, 255, 0), 0 2px 0 rgba(255, 255, 255, 0), 0 4px 0 0 rgba(0, 255, 102, 0), 0 2px 0 3px rgba(0, 0, 0, 0.9), 0 3px 0 3px rgba(255, 255, 255, 0.04);
-}
-
-.outline {
-    color: rgb(255, 243, 243);
-    text-shadow: rgb(169, 251, 255) 0px 0px 1px;
-    letter-spacing: 2px;
-    line-break: auto;
-    -webkit-font-smoothing: antialiased;
-}
-.fancy {
-    @supports (background-clip: text) or (-webkit-background-clip: text) {
-        background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='0.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
-        background-size: 110% auto;
-        font-size: 50px;
-        background-position: center;
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-    }
 }
