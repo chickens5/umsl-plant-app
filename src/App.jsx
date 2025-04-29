@@ -135,10 +135,8 @@ export default function NativePlantRecommender() {
     const totalPages = Math.ceil(recommendations.length / plantsPerPage);
 
 
-
     const getGenusFromName = (botanicalName) => {
         return botanicalName.split(' ')[0];
-        const genusKey = getGenusFromName(selectedPlant.botanical_name);
     };
 
 
@@ -234,25 +232,21 @@ export default function NativePlantRecommender() {
                             <h4>{getGenusFromName(selectedPlant.botanical_name)}</h4>
                             <div className="plant-image-container">
                                 <img
-                                    className="plant-image"
-                                    src={
-                                        `${process.env.PUBLIC_URL}/plantImgs/${genusKey}.jpg`
-                                        ?? (genusImages[getGenusFromName(selectedPlant.botanical_name)]?.image)
-                                        ?? genusImages[genusKey]?.image
-                                        ?? `https://chickens5.github.io/umsl-plant-app/plantImgs/${genusImages[genusKey]?.image}.jpg`
-                                        ?? `https://chickens5.github.io/umsl-plant-app/plantImgs/${genusKey}.jpg`
-                                    }
-                                    alt={getGenusFromName(selectedPlant.botanical_name)}
+                                    className="plant-image"     /* THE botanical_name returns half, which is GENUS, and must be in LOWERCASE */
+
+                                    src={genusImages[getGenusFromName(selectedPlant.botanical_name.toLowerCase())]?.image ||
+
+                                        `${process.env.PUBLIC_URL}/plantImgs/${getGenusFromName(selectedPlant.botanical_name.toLowerCase())}.jpg`}
+                                    alt="Default.jpg"
                                     onError={(e) => {
                                         e.target.src = `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
                                     }}
                                 />
                             </div>
                             <button className ='pagination-button'>
-                                <a href ={genusImages[getGenusFromName(selectedPlant.botanical_name)]?.url || genusImages[genusKey]?.url ||
-                                    selectedPlant.url || "Source: Green Team"}>Source</a></button>
+                                <a href ={genusImages[getGenusFromName(selectedPlant.botanical_name)]?.url || selectedPlant.url || "Source: Green Team"}>Source</a></button>
                             <section className="plant-details">
-                                <p>{genusImages[getGenusFromName(selectedPlant.botanical_name)]?.description || selectedPlant.description || genusImages[genusKey]?.description ||
+                                <p>{genusImages[getGenusFromName(selectedPlant.botanical_name)]?.description || selectedPlant.description ||
                                             selectedPlant.description || "No description available."}</p>
                                 <div className="plant-traits">
                                     <h4>Sustainability Traits:</h4>
