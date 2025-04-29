@@ -136,8 +136,9 @@ export default function NativePlantRecommender() {
 
 
     const getGenusFromName = (botanicalName) => {
-        return botanicalName.split(' ')[0];
+        return botanicalName.split(' ')[0].toLowerCase();
     };
+
 
 
     const getPlantHabitats = (plant) => {
