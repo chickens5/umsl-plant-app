@@ -134,10 +134,22 @@ export default function NativePlantRecommender() {
     const currentPlants = showAll ? recommendations : recommendations.slice(indexOfFirstPlant, indexOfLastPlant);
     const totalPages = Math.ceil(recommendations.length / plantsPerPage);
 
+    const getImageFromJson = (botanicalName) => {
+        if (!botanicalName || !genusImages) return `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
 
-    const getGenusFromName = (botanicalName) => {
-        return botanicalName.split(' ')[0];
+        const nameKey = botanicalName.toLowerCase().replace(/\s+/g, '-'); // "Symphyotrichum novae-angliae" -> "symphyotrichum-novae-angliae"
+
+        const match = Object.entries(genusImages).find(([key, val]) => {
+            const filename = val.filename?.toLowerCase();
+            return filename?.includes(nameKey) || filename?.startsWith(nameKey.split('-')[0]); // Try both genus-species and genus fallback
+        });
+
+        return match
+            ? `${process.env.PUBLIC_URL}/plantImgs/${match[1].filename}`
+            : `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
     };
+
+
 
 
 
@@ -232,19 +244,31 @@ export default function NativePlantRecommender() {
                             <h4>{getGenusFromName(selectedPlant.botanical_name)}</h4>
                             <div className="plant-image-container">
                                 <img
-                                    className="plant-image"     /* THE botanical_name returns half, which is GENUS, and must be in LOWERCASE */
-
-                                    src={genusImages[getGenusFromName(selectedPlant.botanical_name.toLowerCase())]?.image ||
-
-                                        `${process.env.PUBLIC_URL}/plantImgs/${getGenusFromName(selectedPlant.botanical_name.toLowerCase())}.jpg`}
-                                    alt="Default.jpg"
-                                    onError={(e) => {
-                                        e.target.src = `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
-                                    }}
+                                    className="plant-image"
+                                    src={getImageFromJson(selectedPlant.botanical_name)}
+                                    alt={selectedPlant.botanical_name}
                                 />
+
+
+
+
                             </div>
-                            <button className ='pagination-button'>
-                                <a href ={genusImages[getGenusFromName(selectedPlant.botanical_name)]?.url || selectedPlant.url || "Source: Green Team"}>Source</a></button>
+                            <button className='pagination-button'>
+                                <a href={
+                                    genusImages[getGenusFromName(selectedPlant.botanical_name)]?.url ||
+                                    selectedPlant.url ||
+                                    "#"
+                                } target="_blank" rel="noopener noreferrer">Source</a>
+                            </button>
+
+                            <section className="plant-details">
+                                <p>
+                                    {genusImages[getGenusFromName(selectedPlant.botanical_name)]?.description ||
+                                        selectedPlant.description ||
+                                        "No description available."}
+                                </p>
+                            </section>
+
                             <section className="plant-details">
                                 <p>{genusImages[getGenusFromName(selectedPlant.botanical_name)]?.description || selectedPlant.description ||
                                             selectedPlant.description || "No description available."}</p>
