@@ -232,7 +232,11 @@ export default function NativePlantRecommender() {
                             <div className="plant-image-container">
                                 <img
                                     className="plant-image"
-                                    src={`${process.env.PUBLIC_URL}/plantImgs/${getGenusFromName(selectedPlant.botanical_name)}.jpg` || genusImages[getGenusFromName(selectedPlant.botanical_name)]?.image}
+                                    src={
+                                        `${process.env.PUBLIC_URL}/plantImgs/${getGenusFromName(selectedPlant.botanical_name)}.jpg`
+                                        ?? (genusImages[getGenusFromName(selectedPlant.botanical_name)]?.image)
+                                        ?? `https://chickens5.github.io/umsl-plant-app/plantImgs/${getGenusFromName(selectedPlant.botanical_name)}.jpg`
+                                    }
                                     alt={getGenusFromName(selectedPlant.botanical_name)}
                                     onError={(e) => {
                                         e.target.src = `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
