@@ -46,7 +46,7 @@
   },
   {
     "botanical_name": "Asclepias incarnata",
-    "common_name": "Marsh milkweed",
+    "common_name": "Swamp milkweed",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -465,7 +465,7 @@
     "ground_cover": false
   },
   {
-    "botanical_name": "Packera aurea (Senecio)",
+    "botanical_name": "Packera aurea",
     "common_name": "Golden groundsel",
     "soil_type": "moist",
     "full_sun": "X",
@@ -506,7 +506,7 @@
     "rain_garden_wet": true,
     "rain_garden_dry": true,
     "bioswale": true,
-    "wildlife_keystone": false,
+    "wildlife_keystone": true,
     "ground_cover": false
   },
   {
@@ -870,21 +870,6 @@
     "rain_garden_dry": true,
     "bioswale": false,
     "wildlife_keystone": false,
-    "ground_cover": false
-  },
-  {
-    "botanical_name": "Salix humilis",
-    "common_name": "Prairie willow",
-    "soil_type": "moist",
-    "full_sun": "X",
-    "part_shade": "X",
-    "full_shade": "X",
-    "height": "4\u20136",
-    "bloom_time": "late winter",
-    "rain_garden_wet": false,
-    "rain_garden_dry": true,
-    "bioswale": true,
-    "wildlife_keystone": true,
     "ground_cover": false
   },
   {
@@ -1557,7 +1542,7 @@
     "wildlife_keystone": false
   },
   {
-    "botanical_name": "Packera obovata (Senecio)",
+    "botanical_name": "Packera obovata",
     "common_name": "Roundleaf groundsel",
     "soil_type": "dry",
     "full_sun": "X",
