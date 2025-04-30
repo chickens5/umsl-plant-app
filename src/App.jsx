@@ -147,10 +147,9 @@ export default function NativePlantRecommender() {
     }
 
 // 🟡 Update this to your GitHub raw file base path:
-    const GITHUB_IMAGE_BASE = "https://github.com/chickens5/umsl-plant-app/tree/main/public/plantImgs";
+    const GITHUB_IMAGE_BASE = "https://github.com/chickens5/umsl-plant-app/tree/main/public";
 
     function getImageFromJson(plant, genusImages) {
-        // Prefer full image path from plant_data
         if (plant?.image) return `${GITHUB_IMAGE_BASE}${plant.image}`;
 
         const genus = getGenusFromName(plant.botanical_name);
@@ -268,12 +267,9 @@ export default function NativePlantRecommender() {
                             <div className="plant-image-container">
                                 <img
                                     className="plant-image"
-                                    src={getImageFromJson(selectedPlant.botanical_name, genusImages)}
+                                    src={getImageFromJson(selectedPlant, genusImages)}
                                     alt={selectedPlant.botanical_name}
                                 />
-
-
-
 
                             </div>
                             <button className='pagination-button'>
@@ -292,11 +288,6 @@ export default function NativePlantRecommender() {
                                     {getDescription(selectedPlant.botanical_name, genusImages, selectedPlant)}
                                 </p>
 
-                            </section>
-
-                            <section className="plant-details">
-                                <p>{genusImages[getGenusFromName(selectedPlant.botanical_name)]?.description || selectedPlant.description ||
-                                            selectedPlant.description || "No description available."}</p>
                                 <div className="plant-traits">
                                     <h4>Sustainability Traits:</h4>
                                     {selectedPlant.rain_garden_wet && <span className="trait-badge wet">Loves Water</span>}
