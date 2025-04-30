@@ -61,6 +61,15 @@ export default function NativePlantRecommender() {
             .then((data) => setAllPlants(data))
             .catch(() => setRecommendations([{ common_name: "⚠️ Error loading plant data." }]));
     }, []);
+    useEffect(() => {
+        if (Object.values(genusImages).length) {
+            Object.values(genusImages).forEach((val) => {
+                const img = new Image();
+                img.src = `${process.env.PUBLIC_URL}/plantImgs/${val.filename}`;
+            });
+        }
+    }, [genusImages]);
+
 
     useEffect(() => {
         fetch(`${process.env.PUBLIC_URL}/genusImages.json`)
@@ -133,24 +142,38 @@ export default function NativePlantRecommender() {
     const indexOfFirstPlant = indexOfLastPlant - plantsPerPage;
     const currentPlants = showAll ? recommendations : recommendations.slice(indexOfFirstPlant, indexOfLastPlant);
     const totalPages = Math.ceil(recommendations.length / plantsPerPage);
+    function getGenusFromName(botanicalName) {
+        return botanicalName?.split(" ")[0].toLowerCase();
+    }
 
-    const getImageFromJson = (botanicalName) => {
-        if (!botanicalName || !genusImages) return `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
+// 🟡 Update this to your GitHub raw file base path:
+    const GITHUB_IMAGE_BASE = "https://github.com/chickens5/umsl-plant-app/tree/main/public/plantImgs";
 
-        const nameKey = botanicalName.toLowerCase().replace(/\s+/g, '-'); // "Symphyotrichum novae-angliae" -> "symphyotrichum-novae-angliae"
+    function getImageFromJson(plant, genusImages) {
+        // Prefer full image path from plant_data
+        if (plant?.image) return `${GITHUB_IMAGE_BASE}${plant.image}`;
 
-        const match = Object.entries(genusImages).find(([key, val]) => {
-            const filename = val.filename?.toLowerCase();
-            return filename?.includes(nameKey) || filename?.startsWith(nameKey.split('-')[0]); // Try both genus-species and genus fallback
-        });
+        const genus = getGenusFromName(plant.botanical_name);
+        const genusImage = genusImages[genus]?.image;
 
-        return match
-            ? `${process.env.PUBLIC_URL}/plantImgs/${match[1].filename}`
-            : `${process.env.PUBLIC_URL}/plantImgs/default.jpg`;
-    };
+        return genusImage
+            ? `${GITHUB_IMAGE_BASE}${genusImage}`
+            : `${GITHUB_IMAGE_BASE}/plantImgs/default.jpg`;
+    }
 
+    function getSourceUrl(plant, genusImages) {
+        if (plant?.url) return plant.url;
 
+        const genus = getGenusFromName(plant.botanical_name);
+        return genusImages[genus]?.url || "#";
+    }
 
+    function getDescription(plant, genusImages) {
+        if (plant?.description) return plant.description;
+
+        const genus = getGenusFromName(plant.botanical_name);
+        return genusImages[genus]?.description || "No description available.";
+    }
 
 
     const getPlantHabitats = (plant) => {
@@ -241,11 +264,11 @@ export default function NativePlantRecommender() {
                         </section>
                         <div>
                             <h3>Genus:</h3>
-                            <h4>{getGenusFromName(selectedPlant.botanical_name)}</h4>
+                            <h4>{(selectedPlant.botanical_name)}</h4>
                             <div className="plant-image-container">
                                 <img
                                     className="plant-image"
-                                    src={getImageFromJson(selectedPlant.botanical_name)}
+                                    src={getImageFromJson(selectedPlant.botanical_name, genusImages)}
                                     alt={selectedPlant.botanical_name}
                                 />
 
@@ -254,19 +277,21 @@ export default function NativePlantRecommender() {
 
                             </div>
                             <button className='pagination-button'>
-                                <a href={
-                                    genusImages[getGenusFromName(selectedPlant.botanical_name)]?.url ||
-                                    selectedPlant.url ||
-                                    "#"
-                                } target="_blank" rel="noopener noreferrer">Source</a>
+                                <a
+                                    href={getSourceUrl(selectedPlant.botanical_name, genusImages, selectedPlant)}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Source
+                                </a>
+
                             </button>
 
                             <section className="plant-details">
                                 <p>
-                                    {genusImages[getGenusFromName(selectedPlant.botanical_name)]?.description ||
-                                        selectedPlant.description ||
-                                        "No description available."}
+                                    {getDescription(selectedPlant.botanical_name, genusImages, selectedPlant)}
                                 </p>
+
                             </section>
 
                             <section className="plant-details">

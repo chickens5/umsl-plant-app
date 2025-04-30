@@ -1,0 +1,1415 @@
+
+{
+  "Aesculus glabra": "",Wet Pond Emergent Zones",
+  "Wet Pond Wet Meadow Zones": ["Volume Control", "Surface Water Filtration", "Sediment Removal", "Pollutant Capture", "Pollutant Removal", "Carbon Sequestration", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Aquatic Insect Habitat", "Amphibian and Reptile Habitat", "Small Mammal Habitat", "Songbird Habitat", "Water Bird Habitat", "Human Foraging Opportunities", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Wet Pond Floodplain Zones": ["Volume Control", "Surface Water Filtration", "Sediment Removal", "Pollutant Capture", "Pollutant Removal", "Carbon Sequestration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Water Bird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Wet Pond Upland Zones": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Carbon Sequestration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Water Bird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Dry Ponds": ["Erosion Control", "Sediment Removal", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Sediment Forebays": ["Erosion Control", "Pollutant Capture", "Pollutant Removal", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Infiltration Trenches": ["Erosion Control", "Volume Control", "Surface Water Filtration", "Sediment Removal", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Stormwater Wetlands": ["Erosion Control", "Volume Control", "Surface Water Filtration", "Sediment Removal", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Wet Swales": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Biofiltration Side Slopes": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Biofiltration Bases": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Rain Garden Side Slopes": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Rain Garden Bases": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Infiltration", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Stormwater Swales and Ditches": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Filter Strips": ["Volume Control", "Pollutant Capture", "Pollutant Removal", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Tree Trenches": ["Erosion Control", "Pollutant Capture", "Pollutant Removal", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Sand Filters": ["Erosion Control", "Pollutant Capture", "Pollutant Removal", "Evapotranspiration", "Pollinator Habitat", "Songbird Habitat", "Mitigating Urban Heat Islands", "Air Quality Improvement", "Landscape Aesthetics"],
+  "Green Roofs":
+
+}
+
+
+Trees
+Aesculus glabra Ohio buckeye X X X X X X X X X X
+Aesculus pavia Red buckeye X X X X X X X X X X
+Asimina triloba Pawpaw X X X X X X X X
+Betula nigra River birch X X X X X X X X X
+Carpinus
+caroliniana
+
+American
+hornbeam X X X X X X X
+
+Chionanthus
+virginicus Fringetree X X X X X X
+Cornus alternifolia Pagoda
+
+dogwood X X X X X X
+
+Crataegus mollis Downy
+
+hawthorn X X X X X X X
+
+Gymnocladus
+dioicus
+
+Kentucky
+coffeetree X X X X X X X
+Ilex opaca American holly X X X X X X X X X
+Nyssa sylvatica Black gum X X X X X X X
+Prunus serotina Black cherry X X X X X X X X
+Prunus virginiana Chokecherry X X X X X X X X
+Quercus alba White oak X X X X X
+Quercus bicolor Swamp white
+
+oak X X X X X X X X
+
+Quercus
+macrocarpa
+
+Bur oak X X X X X
+Quercus phellos Willow oak X X X X X X X X X
+Quercus rubra Red oak X X X X X
+Quercus velutina Black oak X X X X X
+Taxodium
+distichum Bald cypress X X X X X X X
+
+17
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Shrubs
+Amelanchier
+arborea Serviceberry X X X X X
+Amorpha fruticosa Indigo bush X X X X X X X X X
+Aronia
+melanocarpa
+
+Black
+chokeberry X X X X X X X X X X
+
+Cephalanthus
+occidentalis Buttonbush X X X X X X X
+Cornus amomum Silky dogwood X X X X X X X X
+Cornus racemosa Gray dogwood X X X X X X X X X
+Corylus americana American filbert,
+
+Hazelnut X X X X
+Dirca palustris Leatherwood X X X X X X
+Euonymus
+americanus
+
+Strawberry
+bush X X X X X X X X X
+
+Euonymus
+atropurpureus Wahoo X X X X X X
+Hamamelis vernalis Vernal
+
+witch hazel X X X X X X X
+
+Hamamelis
+virginiana Witch hazel X X X X X X X
+Hydrangea
+arborescens Wild hydrangea X X X X X X X X X
+Ilex decidua Deciduous holly X X X X X X X X
+Ilex verticillata Winterberry X X X X X X X X X
+Itea virginica Sweetspire X X X X X X X X X
+Lindera benzoin Spicebush X X X X X X X X X X
+Physocarpus
+opulifolius Ninebark X X X X X X X X X
+Rhus aromatica Fragrant sumac X X X X
+Salix eriocephala Missouri River
+
+willow X X X X X X X X
+
+Sambucus
+canadensis Elderberry X X X X X X X X X X
+Viburnum
+dentatum Arrowwood X X X X X X X X X
+Viburnum
+rufidulum Rusty blackhaw X X X X
+
+Plant Selection Process
+
+18
+Native Plants for Stormwater Management Projects
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Ferns
+Adiantum
+capillus-veneris
+
+Southern
+maidenhair fern
+
+X
+X
+
+X
+X
+X
+X
+X
+
+Athyrium
+filix-femina Lady fern
+
+X
+X
+X
+
+X
+X
+X
+X
+X
+
+Dryopteris
+marginalis
+
+Marginal shield
+fern
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+Matteuccia
+struthiopteris Ostrich fern
+
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Osmunda
+cinnamomea Cinnamon fern
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Osmunda
+claytoniana Interrupted fern
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Osmunda regalis Royal fern
+X
+X
+X
+
+X
+X
+X
+X
+X
+
+Polystichum
+acrostichoides Christmas fern
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Forbs
+Achillea millefolium Yarrow
+
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+X
+
+Actaea racemosa Black cohosh
+X
+X
+X
+
+X
+X
+X
+X
+
+Allium stellatum Prairie wild
+onion
+
+X
+X
+X
+
+X
+X
+X
+X
+
+X
+
+Amsonia illustris Shining blue
+star
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+Antennaria parlinii Pussytoes
+
+X
+
+X
+
+X
+X
+X
+X
+
+X
+
+Aquilegia
+canadensis Columbine
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+Aruncus dioicus Goat’s beard
+
+X
+X
+X
+
+X
+X
+X
+X
+
+Asclepias
+incarnata
+
+Swamp/Marsh
+milkweed
+
+X
+X
+
+X
+X
+
+X
+X
+X
+
+Asclepias
+purpurascens Purple milkweed
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+X
+
+Asclepias syriaca Common
+milkweed
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+X
+
+Asclepias tuberosa Butterfly
+milkweed
+
+X
+
+X
+
+X
+X
+
+X
+X
+X
+
+Asclepias
+verticillata
+
+Whorled
+milkweed
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+Asclepias
+viridiflora Green milkweed
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+Asclepias viridis Spider milkweed
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+19
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Baptisia alba White false
+
+indigo X X X X X
+Baptisia australis Blue false indigo X X X X X X
+Baptisia bracteata Cream wild
+
+indigo X X X X X X X
+
+Chelone obliqua Rose turtlehead X X X X X X X X X
+Conoclinium
+coelestinum Mist flower X X X X X X X X
+Coreopsis
+lanceolata
+
+Lanceleaf
+coreopsis X X X X X X X
+
+Coreopsis palmata Prairie
+
+coreopsis X X X X X X X
+
+Dalea purpurea Purple prairie
+
+clover X X X X X X X
+
+Echinacea pallida Pale purple
+
+coneflower X X X X X X X
+
+Echinacea
+paradoxa
+
+Yellow
+coneflower X X X X X X X X
+
+Echinacea
+purpurea
+
+Purple
+coneflower X X X X X X X
+
+Eryngium
+yuccifolium
+
+Rattlesnake
+master X X X X X X X
+
+Eupatorium
+perfoliatum Boneset X X X X X X X X
+Eutrochium
+purpureum Joe Pye X X X X X X X X
+Filipendula rubra Queen of the
+
+prairie X X X X X X X X
+Gentiana andrewsii Bottle gentian X X X X X X X
+Geranium
+maculatum Wild geranium X X X X X X X
+Glandularia
+canadensis Rose verbena X X X X X X
+Helenium
+autumnale
+
+Helen’s flower,
+Sneezeweed X X X X X X X X
+
+Helianthus
+maximiliani
+
+Maximilian
+sunflower X X X X X X X
+
+Helianthus
+occidentalis
+
+Western
+sunflower X X X X X X
+
+Plant Selection Process
+
+20
+Native Plants for Stormwater Management Projects
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Helianthus
+salicifolius
+
+Willow-leaved
+sunflower
+
+X
+X
+X
+
+X
+X
+X
+X
+
+X
+
+Heliopsis
+helianthoides
+
+Ox-eye
+sunflower
+
+X
+X
+X
+
+X
+X
+X
+X
+
+X
+
+Heuchera
+richardsonii
+
+Alum root,
+Coral bells
+
+X
+
+X
+X
+X
+X
+
+X
+
+Iris fulva Copper iris
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+Iris virginica var.
+shrevei
+
+Southern blue
+flag iris
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+Liatris aspera Rough blazing
+star
+
+X
+
+X
+
+X
+X
+X
+X
+
+X
+
+Liatris
+pycnostachya
+
+Prairie blazing
+star
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+Liatris scariosa Eastern blazing
+star
+
+X
+
+X
+
+X
+X
+X
+X
+
+X
+
+Liatris spicata Marsh blazing
+star
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Lobelia cardinalis Cardinal flower
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+Lobelia siphilitica Great blue
+lobelia
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+Monarda
+bradburiana Bee balm
+
+X
+X
+X
+
+X
+X
+X
+X
+
+Monarda fistulosa Wild bergamot
+
+X
+X
+X
+
+X
+X
+X
+X
+
+Oenothera
+macrocarpa
+
+Missouri
+primrose
+
+X
+X
+X
+X
+
+X
+X
+X
+X
+
+X
+
+Oligoneuron
+riddellii
+
+Riddell’s
+goldenrod
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+Oligoneuron
+rigidum Stiff goldenrod
+
+X
+X
+X
+
+X
+X
+X
+X
+
+X
+
+Packera aurea Golden ragwort
+X
+X
+X
+
+X
+X
+X
+X
+X
+
+Packera obovata Roundleaf
+groundsel
+
+X
+
+X
+
+X
+X
+X
+X
+
+X
+
+Peltandra virginica Arrow arum
+X
+X
+
+X
+X
+X
+
+Penstemon
+digitalis
+
+Foxglove beard
+tongue
+
+X
+X
+X
+
+X
+X
+
+X
+
+X
+
+Phlox paniculata Garden phlox
+
+X
+X
+X
+
+X
+X
+X
+
+X
+
+Physostegia
+virginiana Obedient plant
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+Polemonium
+reptans Jacob’s ladder
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+21
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Polygonatum
+biflorum Solomon’s seal X X X X X
+Pontederia cordata Pickerel plant X X X X
+Pycnanthemum
+tenuifolium
+
+Slender
+mountain mint X X X X X X X X X
+
+Pycnanthemum
+verticillatum var.
+pilosum
+
+Hairy mountain
+mint X X X X X X X X X
+
+Rudbeckia fulgida
+var. umbrosa
+
+Orange
+coneflower X X X X X X X
+
+Rudbeckia hirta Black-eyed
+
+Susan X X X X X X X X
+
+Rudbeckia
+missouriensis
+
+Missouri
+coneflower X X X X X X X X
+
+Rudbeckia
+subtomentosa
+
+Sweet
+coneflower X X X X X X X X X
+
+Sagittaria latifolia Broadleaved
+
+arrowhead X X X X X X
+
+Salvia azurea Blue sage X X X X X X
+Saururus cernuus Lizard’s tail X X X X X
+Scutellaria incana Downy skullcap X X X X X X X X X
+Silene virginica Fire pink X X X X X X
+Silphium laciniatum Compass plant X X X X X X X
+Silphium
+perfoliatum Cup plant X X X X X X X X X
+Silphium
+terebinthinaceum Prairie dock X X X X X X X
+Sisyrinchium
+campestre
+
+Prairie blue-
+eyed grass X X X X X X
+
+Solidago nemoralis Gray goldenrod X X X X X X
+Solidago speciosa Showy
+
+goldenrod X X X X X X X X
+
+Spigelia
+marilandica Indian pink X X X X X X
+Symphyotrichum
+laeve Smooth aster X X X X X X X
+Symphyotrichum
+oblongifolium Aromatic aster X X X X X X X
+Symphyotrichum
+oolentangiense Sky blue aster X X X X X X
+Plant Selection Process
+
+22
+Native Plants for Stormwater Management Projects
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Thalia dealbata Water canna
+X
+X
+
+X
+X
+X
+
+Tradescantia
+ohiensis Ohio spiderwort
+
+X
+X
+X
+
+X
+X
+
+X
+
+X
+
+Vernonia
+arkansana
+
+Curlytop
+ironweed
+
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Vernonia
+fasciculata Ironweed
+
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+Veronicastrum
+virginicum Culver’s root
+
+X
+X
+X
+X
+
+X
+
+X
+X
+X
+X
+
+Zizia aptera
+
+Heartleaf
+golden
+alexanders
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+Zizia aurea Golden
+alexanders
+
+X
+X
+X
+X
+
+X
+X
+X
+X
+
+Grasses, Sedges, and Horsetails
+Andropogon
+gerardii Big bluestem
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+Bouteloua
+curtipendula Sideoats grama
+
+X
+X
+
+X
+
+X
+X
+
+X
+
+Carex albicans Oak sedge
+
+X
+
+X
+
+X
+
+X
+
+Carex blanda
+
+Eastern wood
+-
+land/Common
+wood sedge
+
+X
+X
+
+X
+
+X
+
+X
+
+Carex brevior Shortbeak
+sedge
+
+X
+X
+
+X
+X
+X
+X
+
+Carex grayi Globe sedge
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+X
+
+Carex
+muskingumensis Palm sedge
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+X
+
+Carex
+pensylvanica
+
+Pennsylvania
+sedge
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+Carex shortiana Short’s sedge
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+X
+
+Carex stricta Tussock sedge
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+X
+
+Carex vulpinoidea Brown fox
+sedge
+
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+
+X
+
+Chasmanthium
+latifolium
+
+Northern sea or
+River oats
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+Diarrhena obovata American
+beakgrain
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+Elymus canadensis Canada wild rye
+
+X
+X
+X
+X
+
+X
+
+Equisetum hyemale Horsetails
+X
+X
+
+X
+X
+X
+
+23
+
+Scientific
+Name
+
+Common
+Name
+
+Wet Pond Emergent Zones
+Wet Pond Wet Meadow Zones
+Wet Pond Floodplain Zones
+Wet Pond Upland Zones
+Dry Ponds
+Sediment Forebays
+Infiltration Trenches
+Stormwater Wetlands
+Wet Swales
+Biofiltration Side Slopes
+Biofiltration Bases
+Rain Garden Side Slopes
+Rain Garden Bases
+Stormwater Swales and Ditches
+Filter Strips
+Tree Trenches
+Sand Filters
+Green Roofs
+
+Juncus effusus Soft rush X X X X X X X X X
+Juncus tenuis Path rush X X X X X X X X X X
+Panicum virgatum Switchgrass X X X X X X X
+Schizachyrium
+scoparium Little bluestem X X X X X X X X X X
+Sorghastrum
+nutans Indian grass X X X X X X X X
+Sporobolus
+heterolepis
+
+Prairie
+dropseed X X X X X X X
