@@ -20,7 +20,6 @@ export default function NativePlantRecommender() {
     const [isScrolledToBottom, setIsScrolledToBottom] = useState(false);
     const pageContainerRef = useRef(null);
 
-    // Filter options based on your plant data structure
     const filterOptions = {
         soilType: ['moist', 'dry'],
         sunlight: ['full_sun', 'part_shade', 'full_shade'],
@@ -33,7 +32,6 @@ export default function NativePlantRecommender() {
         ]
     };
 
-    // Map habitat keys to display names
     const habitatDisplayNames = {
         'rain_garden_wet': 'Rain Garden (Wet soil)',
         'rain_garden_dry': 'Rain Garden (Dry soil)',
@@ -61,15 +59,6 @@ export default function NativePlantRecommender() {
             .then((data) => setAllPlants(data))
             .catch(() => setRecommendations([{ common_name: "⚠️ Error loading plant data." }]));
     }, []);
-    useEffect(() => {
-        if (Object.values(genusImages).length) {
-            Object.values(genusImages).forEach((val) => {
-                const img = new Image();
-                img.src = `${process.env.PUBLIC_URL}/plantImgs/${val.filename}`;
-            });
-        }
-    }, [genusImages]);
-
 
     useEffect(() => {
         fetch(`${process.env.PUBLIC_URL}/genusImages.json`)
@@ -89,23 +78,17 @@ export default function NativePlantRecommender() {
 
     const filterPlants = (plants) => {
         return plants.filter(plant => {
-            // Soil type filter
             if (selectedFilters.soilType.length > 0 && !selectedFilters.soilType.includes(plant.soil_type)) {
                 return false;
             }
-
-            // Sunlight filter
             if (selectedFilters.sunlight.length > 0) {
                 const hasSunlight = selectedFilters.sunlight.some(light => plant[light]);
                 if (!hasSunlight) return false;
             }
-
-            // Habitat filter
             if (selectedFilters.habitat.length > 0) {
                 const hasHabitat = selectedFilters.habitat.some(habitat => plant[habitat]);
                 if (!hasHabitat) return false;
             }
-
             return true;
         });
     };
@@ -119,15 +102,8 @@ export default function NativePlantRecommender() {
         }, 200);
     };
 
-    const handleViewAll = () => {
-        setShowAll(true);
-        setCurrentPage(1);
-    };
-
-    const handlePaginatedView = () => {
-        setShowAll(false);
-        setCurrentPage(1);
-    };
+    const handleViewAll = () => setShowAll(true);
+    const handlePaginatedView = () => setShowAll(false);
 
     const handleFilterChange = (filterType, value) => {
         setSelectedFilters(prev => ({
@@ -142,38 +118,31 @@ export default function NativePlantRecommender() {
     const indexOfFirstPlant = indexOfLastPlant - plantsPerPage;
     const currentPlants = showAll ? recommendations : recommendations.slice(indexOfFirstPlant, indexOfLastPlant);
     const totalPages = Math.ceil(recommendations.length / plantsPerPage);
+
     function getGenusFromName(botanicalName) {
         return botanicalName?.split(" ")[0].toLowerCase();
     }
 
-// 🟡 Update this to your GitHub raw file base path:
-    const GITHUB_IMAGE_BASE = "https://github.com/chickens5/umsl-plant-app/tree/main/public";
+    const GITHUB_JSON_BASE = "https://chickens5.github.io/umsl-plant-app";
 
     function getImageFromJson(plant, genusImages) {
-        if (plant?.image) return `${GITHUB_IMAGE_BASE}${plant.image}`;
-
+        if (plant?.image) return `${GITHUB_JSON_BASE}${plant.image}`;
         const genus = getGenusFromName(plant.botanical_name);
         const genusImage = genusImages[genus]?.image;
-
-        return genusImage
-            ? `${GITHUB_IMAGE_BASE}${genusImage}`
-            : `${GITHUB_IMAGE_BASE}/plantImgs/default.jpg`;
+        return genusImage ? `${GITHUB_JSON_BASE}${genusImage}` : `${GITHUB_JSON_BASE}/plantImgs/default.jpg`;
     }
 
     function getSourceUrl(plant, genusImages) {
         if (plant?.url) return plant.url;
-
         const genus = getGenusFromName(plant.botanical_name);
         return genusImages[genus]?.url || "#";
     }
 
     function getDescription(plant, genusImages) {
         if (plant?.description) return plant.description;
-
         const genus = getGenusFromName(plant.botanical_name);
         return genusImages[genus]?.description || "No description available.";
     }
-
 
     const getPlantHabitats = (plant) => {
         return Object.entries(plant)
