@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/umsl-plant-app/static/css/main.2a408b2e.css",
-    "main.js": "/umsl-plant-app/static/js/main.958cc49f.js",
+    "main.css": "/umsl-plant-app/static/css/main.1b22ab43.css",
+    "main.js": "/umsl-plant-app/static/js/main.e110ef43.js",
     "static/media/greenTeam.jpg": "/umsl-plant-app/static/media/greenTeam.323d5e7b793f9d4f7794.jpg",
     "index.html": "/umsl-plant-app/index.html",
-    "main.2a408b2e.css.map": "/umsl-plant-app/static/css/main.2a408b2e.css.map",
-    "main.958cc49f.js.map": "/umsl-plant-app/static/js/main.958cc49f.js.map"
+    "main.1b22ab43.css.map": "/umsl-plant-app/static/css/main.1b22ab43.css.map",
+    "main.e110ef43.js.map": "/umsl-plant-app/static/js/main.e110ef43.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a408b2e.css",
-    "static/js/main.958cc49f.js"
+    "static/css/main.1b22ab43.css",
+    "static/js/main.e110ef43.js"
   ]
 }
