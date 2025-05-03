@@ -23,6 +23,7 @@ export default function NativePlantRecommender() {
     const filterOptions = {
         soilType: ['moist', 'dry'],
         sunlight: ['full_sun', 'part_shade', 'full_shade'],
+        type: ['type'],
         habitat: [
             'rain_garden_wet',
             'rain_garden_dry',
@@ -120,29 +121,48 @@ export default function NativePlantRecommender() {
     const totalPages = Math.ceil(recommendations.length / plantsPerPage);
 
     function getGenusFromName(botanicalName) {
-        return botanicalName?.split(" ")[0].toLowerCase();
+        return botanicalName?.split(" ")[0];
     }
 
     const GITHUB_JSON_BASE = "https://chickens5.github.io/umsl-plant-app";
 
+    function getGenusKey(genus, genusImages) {
+        if (!genus || !genusImages || typeof genusImages !== 'object') return null;
+
+        // Convert to lowercase for comparison, then return the actual matching key
+        const match = Object.keys(genusImages).find(
+            key => key.toLowerCase() === genus.toLowerCase()
+        );
+
+        return match || null;
+    }
+
+
+
     function getImageFromJson(plant, genusImages) {
         if (plant?.image) return `${GITHUB_JSON_BASE}${plant.image}`;
         const genus = getGenusFromName(plant.botanical_name);
-        const genusImage = genusImages[genus]?.image;
+        const genusKey = getGenusKey(genus, genusImages);
+        const genusImage = genusImages[genusKey]?.image;
         return genusImage ? `${GITHUB_JSON_BASE}${genusImage}` : `${GITHUB_JSON_BASE}/plantImgs/default.jpg`;
     }
 
     function getSourceUrl(plant, genusImages) {
         if (plant?.url) return plant.url;
         const genus = getGenusFromName(plant.botanical_name);
-        return genusImages[genus]?.url || "#";
+        const genusKey = getGenusKey(genus, genusImages);
+        return genusImages[genusKey]?.url || "#";
     }
 
     function getDescription(plant, genusImages) {
-        if (plant?.description) return plant.description;
+        if (plant?.description && plant.description.length > 10) return plant.description;
         const genus = getGenusFromName(plant.botanical_name);
-        return genusImages[genus]?.description || "No description available.";
+        const genusKey = getGenusKey(genus, genusImages);
+        return genusImages[genusKey]?.description || "No description available.";
     }
+
+
+
 
     const getPlantHabitats = (plant) => {
         return Object.entries(plant)
@@ -164,6 +184,19 @@ export default function NativePlantRecommender() {
                 {/* Filter Section */}
                 <div className="filter-section">
                     <h4 className = 'header-container'>Filter Plants:</h4>
+                    <div className="filter-group">
+                        <h5 className ='mini-container'>Select by Plant Type:</h5>
+                        {filterOptions.type.map(type => (
+                            <label key={type}>
+                                <input
+                                    type="checkbox"
+                                    checked={selectedFilters.type.includes(type)}
+                                    onChange={() => handleFilterChange('type', type)}
+                                />
+                                {type === 'Tree' ? 'Shrub Areas' : 'Dry Areas'}
+                            </label>
+                        ))}
+                    </div>
 
                     <div className="filter-group">
                         <h5 className ='mini-container'>Soil Type:</h5>
@@ -232,7 +265,7 @@ export default function NativePlantRecommender() {
                         </section>
                         <div>
                             <h3>Genus:</h3>
-                            <h4>{(selectedPlant.botanical_name)}</h4>
+                            <h4>{(selectedPlant.botanical_name.split(' ')[0])}</h4>
                             <div className="plant-image-container">
                                 <img
                                     className="plant-image"
@@ -242,19 +275,13 @@ export default function NativePlantRecommender() {
 
                             </div>
                             <button className='pagination-button'>
-                                <a
-                                    href={getSourceUrl(selectedPlant.botanical_name, genusImages, selectedPlant)}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Source
-                                </a>
+                                <a href={getSourceUrl(selectedPlant, genusImages)}>Source</a>
 
                             </button>
 
                             <section className="plant-details">
                                 <p>
-                                    {getDescription(selectedPlant.botanical_name, genusImages, selectedPlant)}
+                                    {getDescription(selectedPlant, genusImages)}
                                 </p>
 
                                 <div className="plant-traits">
