@@ -50,6 +50,7 @@
 
 .filter-group {
     margin-bottom: 15px;
+
 }
 
 .filter-group h5 {
@@ -59,8 +60,14 @@
 .filter-group label {
     display: block;
     margin: 5px 0;
+    background: #76232f;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: -3.3px 2px 12px rgb(255, 183, 0); /* UMSL dark gray as shadow */
     cursor: pointer;
 }
+
+
 
 /* Plant Traits Badges */
 .plant-traits {

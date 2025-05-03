@@ -9,7 +9,8 @@ export default function NativePlantRecommender() {
     const [selectedFilters, setSelectedFilters] = useState({
         soilType: [],
         sunlight: [],
-        habitat: []
+        habitat: [],
+        plantType: []
     });
     const [recommendations, setRecommendations] = useState([]);
     const [selectedPlant, setSelectedPlant] = useState(null);
@@ -23,7 +24,7 @@ export default function NativePlantRecommender() {
     const filterOptions = {
         soilType: ['moist', 'dry'],
         sunlight: ['full_sun', 'part_shade', 'full_shade'],
-        type: ['type'],
+        plantType: ['Tree','Shrub','Forb','Fern'],
         habitat: [
             'rain_garden_wet',
             'rain_garden_dry',
@@ -79,6 +80,10 @@ export default function NativePlantRecommender() {
 
     const filterPlants = (plants) => {
         return plants.filter(plant => {
+
+            if (selectedFilters.plantType.length > 0 && !selectedFilters.plantType.includes(plant.plant_type)) {
+               return false;
+            }
             if (selectedFilters.soilType.length > 0 && !selectedFilters.soilType.includes(plant.soil_type)) {
                 return false;
             }
@@ -184,16 +189,21 @@ export default function NativePlantRecommender() {
                 {/* Filter Section */}
                 <div className="filter-section">
                     <h4 className = 'header-container'>Filter Plants:</h4>
+
                     <div className="filter-group">
-                        <h5 className ='mini-container'>Select by Plant Type:</h5>
-                        {filterOptions.type.map(type => (
-                            <label key={type}>
+                        <h5>Plant Type:</h5>
+                        {filterOptions.plantType.map(plant_type => (
+                            <label key={plant_type}>
                                 <input
                                     type="checkbox"
-                                    checked={selectedFilters.type.includes(type)}
-                                    onChange={() => handleFilterChange('type', type)}
+                                    checked={selectedFilters.plantType.includes(plant_type)}
+                                    onChange={() => handleFilterChange('plantType', plant_type)}
                                 />
-                                {type === 'Tree' ? 'Shrub Areas' : 'Dry Areas'}
+                               {plant_type === 'Tree' ? 'Tree' : ''}
+                                {plant_type === 'Forb' ? 'Forb' : ''}
+                                {plant_type === 'Shrub' ? 'Shrub' : ''}
+                                {plant_type === 'Grass' ? 'Grass' : ''}
+                                {plant_type === 'Fern' ? 'Fern' : ''}
                             </label>
                         ))}
                     </div>
@@ -253,6 +263,7 @@ export default function NativePlantRecommender() {
                             <strong>{selectedPlant.common_name.toUpperCase()}</strong>
                         </div>
                         <section className={'plant-tag-container'}>
+                            <strong>Type: {selectedPlant.plant_type || ''}</strong>
                             <h4 className ='mini-container'>Plant Characteristics:</h4>
                             <p>Soil: {selectedPlant.soil_type === 'moist' ? 'Moist areas' : 'Dry areas'}</p>
                             <p>Sun: {selectedPlant.full_sun ? 'Full sun' : ''}
@@ -313,6 +324,7 @@ export default function NativePlantRecommender() {
                         {currentPlants.map((plant, index) => (
                             <li className="plant-list" key={index} onClick={() => showPlantDetails(plant)}>
                                 <strong>{plant.common_name.toUpperCase()}</strong><br />
+                                <strong>{plant.plantType}</strong><br />
                                 <em>{plant.botanical_name}</em>
                                 <div className="plant-traits">
                                     {plant.rain_garden_wet && <span className="trait-badge wet">Loves Water</span>}

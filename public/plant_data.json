@@ -2,7 +2,7 @@
   {
     "botanical_name": "Amsonia illustris",
     "common_name": "Shining blue star",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -51,7 +51,7 @@
   {
     "botanical_name": "Asclepias incarnata",
     "common_name": "Swamp milkweed",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/asclepias-incarnata.jpg",
     "url":"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g410",
     "description": "Asclepias incarnata, commonly called swamp milkweed, is an erect, clump-forming, Missouri native plant which is commonly found in swamps, river bottomlands and wet meadows throughout the State. It typically grows 3-4' tall (less frequently to 5') on branching stems. Small, fragrant, pink to mauve flowers (1/4\" wide), each with five reflexed petals and an elevated central crown, appear in tight clusters (umbels) at the stem ends in summer. Flowers are uncommonly white. Narrow, lance-shaped, taper-pointed leaves are 3-6\" long. Stems exude a toxic milky sap when cut. Flowers are followed by attractive seed pods (to 4\" long) which split open when ripe releasing silky-haired seeds easily carried by the wind. Flowers are very attractive to butterflies and hummingbirds as a nectar source. In addition, swamp milkweed is a food source for the larval stage of monarch butterflies.",
@@ -70,7 +70,7 @@
   {
     "botanical_name": "Carex albicans",
     "common_name": "Oak sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -86,7 +86,7 @@
   {
     "botanical_name": "Carex annectens",
     "common_name": "Yellow-fruited fox sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -102,7 +102,7 @@
   {
     "botanical_name": "Carex grayii",
     "common_name": "Bur sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -118,7 +118,7 @@
   {
     "botanical_name": "Carex muskingumensis",
     "common_name": "Palm sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -149,7 +149,7 @@
   {
     "botanical_name": "Chasmanthium latifolium",
     "common_name": "River oats",
-    "type": "Grass",
+    "plant_type": "Grass",
     "image": "/plantImgs/chasmanthium-latifolium.jpg",
     "url":"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a240",
     "description": "Chasmanthium latifolium, a clump-forming, upright, ornamental grass, is a Missouri native plant which typically grows 2-5' and most often occurs in rich woods or rocky slopes along streams and on moist bluffs. This grass is perhaps most distinguished by the flat, drooping seed heads which hang in terminal clusters on thread-like pedicils from slightly arching stems. Seed heads will flutter when caressed by even the softest of breezes. Seed heads emerge green but turn purplish bronze by late summer. Bright green leaves (5-9\" long) turn a coppery color after frost and eventually brown by winter. Excellent for dried flower arrangements. Common name of inland sea oats is in reference to the similarity of the seed heads to those of oats. This grass was once known as Uniola latifolia.",
@@ -168,7 +168,7 @@
   {
     "botanical_name": "Chelone glabra",
     "common_name": "Turtlehead",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/chelone-glabra.jpg",
     "url":"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286965",
     "description": "Best grown in moist to wet, rich, humusy soils in part shade. Appreciates a good composted leaf mulch, particularly in sunny areas. Consider pinching back the stem ends in spring to reduce mature plant height, especially if growing plants in strongly shaded areas where they are more likely to need some support. In optimum environments, however, staking is usually not required. Slowly spreads by rhizomes.",
@@ -205,7 +205,7 @@
   {
     "botanical_name": "Conoclinium coelestinum",
     "common_name": "Mistflower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/conoclinium-coelestinum.jpg",
     "url":"https://www.missouribotanicalgarden.org/plantfinder/plantfinderdetails.aspx?kempercode=j870",
     "description": "Conoclinium coelestinum, commonly called mistflower, is a late summer to fall-blooming herbaceous perennial that is native to the Eastern United States. It looks like annual ageratum and in that regard is sometimes commonly called hardy ageratum. But it is perennial and can spread aggressively by rhizomes. It typically grows to 1-2’ tall on downy purplish stems clad with coarsely-toothed, ovate-deltoid leaves (to 3” long). The flowers of this member of the aster family lack rays. Numerous small, fluffy, tubular, blue-purple flowers (to 1/ 2” across) with discoid heads bloom from July to October in dense flat topped terminal clusters (corymbs). In Missouri, mistflower is primarily found south of the Missouri River in low wet woods, at bluff bases, and in moist ground along streams, ponds, sloughs and ditches (Steyermark). It is also commonly called blue boneset. Conoclinium coelestinum is synonymous with Eupatorium coelestinum.",
@@ -224,7 +224,7 @@
   {
     "botanical_name": "Eutrochium purpureum",
     "common_name": "Purple Joe Pye",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/eutrochium-purpureum.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=c740",
     "description": "Eutrochium purpureum, commonly called Joe Pye weed, is a tall Missouri native perennial that occurs in low moist ground, wooded slopes, wet meadows and thickets and stream margins throughout the State (Steyermark). It is an erect, clump-forming perennial which typically grows 4-7’ tall and features coarsely-serrated, lance-shaped, dark green leaves (to 12” long) in whorls of 3-4 on sturdy green stems with purplish leaf nodes. Tiny, vanilla-scented, dull pinkish-purple flowers in large, terminal, domed, compound inflorescences bloom in mid-summer to early fall. Each flower cluster typically has 5-7 florets. Flowers are very attractive to butterflies. Flowers give way to attractive seed heads which persist well into winter.\n",
@@ -243,7 +243,7 @@
   {
     "botanical_name": "Filipendula rubra",
     "common_name": "Queen-of-the-prairie",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/filipendula-rubra.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286417&isprofile=1&basic=Filipendula%20rubra#AllImages",
     "description": "Filipendula rubra, commonly called queen of the prairie, is a U.S. native perennial which ranges from Pennsylvania to Georgia and west to Iowa and Missouri. In Missouri, it is only found in several swampy, calcareous meadows in Reynolds County (Steyermark). It is a very tall, upright, clump-forming perennial that typically grows 6-8' tall and features branched, terminal, astilbe-like, 6-9\" wide panicles (corymbs) of tiny, fragrant, pale pink flowers in early to mid summer. Deeply cut, compound-pinnate, bright green leaves have 7-9 lance-shaped leaflets each, with an unusually large, 7-9 lobed, terminal leaflet (4-8\" long). Leaves are fragrant. A good foliage plant that is valued for both its leaves and its flowers.",
@@ -262,7 +262,7 @@
   {
     "botanical_name": "Geranium maculatum",
     "common_name": "Wild geranium",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/geranium-maculatum.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=c850",
     "description": "Geranium maculatum is a clump-forming, Missouri native, woodland perennial which typically occurs in woods, thickets and shaded roadside areas throughout the State. Forms a mound of foliage that grows to 24\" tall and 18\" wide. Features 1 1/4\" diameter, pink to lilac, saucer-shaped, upward facing, 5-petaled flowers in spring for a period of 6-7 weeks. Deeply cut, palmately 5-lobed, dark green leaves (to 6\" across). Flowers give way to distinctive, beaked seed capsules which give rise to the common name of crane's bill. The maturing seeds are eaten by birds.\n",
@@ -281,7 +281,7 @@
   {
     "botanical_name": "Helenium autumnale",
     "common_name": "Helen's flower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/helenium-autumnale.jpg",
     "url": "https://www.missouribotanicalgarden.org/plantfinder/plantfinderdetails.aspx?kempercode=c930",
     "description": "Helenium autumnale, commonly called sneezeweed, is an erect, clump-forming, Missouri native perennial which occurs in moist soils along streams, ponds or ditches and in spring-fed meadows, prairie and wet open ground throughout most of the State (Steyermark). Typically grows 3-5' tall on rigid, distinctively winged stems which branch near the top. Features clusters of daisy-like flowers (2\" diameter) with distinctive wedge-shaped, bright yellow rays (three-lobed at the tips) and prominent, dome-like, dull yellow center disks. Flowers appear over a lengthy late summer to autumn (sometimes to first frost) bloom as indicated by species name. Alternate, lance-shaped, dark green leaves (to 6\" long).",
@@ -336,7 +336,7 @@
   {
     "botanical_name": "Iris fulva",
     "common_name": "Copper iris",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/iris-fulva.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281153&isprofile=1&basic=Iris%20fulva#AllImages",
     "description": "Iris fulva is commonly called copper iris because of the unusual copper color of its flowers. It is a beardless, crestless iris (Louisiana Iris group) that is native to swamps and wetlands of the deep South and of the lower Mississippi Valley from Louisiana north to southeastern Missouri and southern Illinois. In Missouri, it is primarily found in bald cypress swamps, sloughs, ponds, ditches and swampy woodland areas in the southeastern corner of the State (Steyermark). It is often found growing and blooming in standing water in spring-flooded areas that typically dry up as the summer progresses. Terra cotta or copper colored irises appear in late spring atop flower scapes typically growing 2-3’ tall. Flowers are reportedly pollinated by hummingbirds. Sword-shaped, linear, bright green leaves. In New Orleans in March of 1821, John James Audubon painted a pair of parula warblers perching on the stem of a copper iris in a painting that became an entry in The Birds of North America.",
@@ -355,7 +355,7 @@
   {
     "botanical_name": "Iris virginica",
     "common_name": "Southern blue flag",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/iris-virginica.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281265&isprofile=0&gen=Iris",
     "description": "Iris virginica (var. shrevei), commonly called southern blue flag, is native primarily to wetlands, marshes, lake sides, stream banks, and other moist, open areas in the eastern half of the United States and southern Canada. Two varietals are recognized: I. virginica var. virginica, which is found on the Atlantic coastal plain from Virginia to peninsular Florida and west to Texas, and I. virginica var. shrevei, which is found in the central United States and southern Canada from Arkansas north to the Great Lakes region and east to Quebec and the Appalachian Mountains. It typically grows to 2' tall (less frequently to 3') and features non-fragrant violet-blue flowers with falls that are crested with yellow and white. Flower color can vary considerably from very light blue to purple. Bright medium green, sword-shaped leaves often lie on the ground or in the water. Blooms in late spring.\n\nVar. shrevei, often called Shreve's iris, is similar in appearance to the species but typically has branched inflorescences (versus unbranched) and longer, narrower seed capsules (2.75-4.25\" long versus 1-2.25\" long). This varietal also prefers a more neutral soil pH.\n",
@@ -374,7 +374,7 @@
   {
     "botanical_name": "Juncus effusus",
     "common_name": "Soft rush",
-    "type": "Grass",
+    "plant_type": "Grass",
     "image": "/plantImgs/juncus-effusus.jpg",
     "description": "Juncus effuses, commonly known as soft rush, common rush, bog rush or mat rush, is a grasslike-like, rhizomatous, wetland perennial that features smooth, upright, cylindrical, unjointed, spire-like green stems (leaves are absent) which grow in spreading basal clumps to 20-40” tall. It is one of the true rushes. It has a nearly cosmopolitan distribution, being found in many places around the world, but primarily in cool-temperate regions, particularly ones having wet soils. It is often found growing in ditches, bogs, swamps, marshes, wet pastures, and along the margins of lakes and rivers. It is infrequently found growing in tropical areas. Stems are usually solid, with the leaves typically reduced to bladeless basal sheathes. Insignificant, minute, yellowish-green to pale brown flowers bloom in one-sided clusters (many-flowered cymes) located on stem sides slightly below the stem tips. Flowers emerge in summer (July to September). Fruit is an obovoid capsule. Clumps provide vertical accent to moist garden areas. Although the stems appear from a distance as coarse and stiff, they are soft to the touch. Soft rush is considered to be a somewhat invasive weed in a number of locations. Foliage turns yellow in fall before browning up for winter.",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=c262",
@@ -393,7 +393,7 @@
   {
     "botanical_name": "Liatris spicata",
     "common_name": "Dense blazing star",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/liatris-spicata.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d780#AllImages",
     "description": "Liatris spicata, commonly called blazing star, dense blazing star or marsh blazing star, is a tall, upright, clump-forming perennial which is native to moist low grounds, meadows and marsh margins. In Missouri, it has only been found in Oregon County on the Arkansas border (Steyermark). It typically grows 2-4' tall in cultivation, but can reach a height of 6' in some parts of its native habitat. Features terminal spikes (6-12\" long) of sessile, rounded, fluffy, deep purple flower heads (each to 3/4\" across) appearing atop rigid, erect, leafy flower stalks. One or more stalks arise from a basal tuft of narrow, grass-like, medium green leaves (to 12\" long). Stem leaves gradually decrease in size toward the top. Blooms in summer. The flowers are attractive to hummingbirds, butterflies, and other pollinators, and the small seeds are attractive to songbirds.",
@@ -412,7 +412,7 @@
   {
     "botanical_name": "Lobelia cardinalis",
     "common_name": "Cardinal flower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/lobelia-cardinalis.jpg",
     "url": "https://www.missouribotanicalgarden.org/plantfinder/PlantFinderDetails.aspx?taxonid=278870#AllImages",
     "description": "Lobelia cardinalis, commonly called cardinal flower is a Missouri native perennial which typically grows in moist locations along streams, sloughs, springs, swamps and in low wooded areas. A somewhat short-lived, clump-forming perennial which features erect, terminal spikes (racemes) of large, cardinal red flowers on unbranched, alternate-leafed stalks rising typically to a height of 2-3' (infrequently to 4'). Tubular flowers are 2-lipped, with the three lobes of the lower lip appearing more prominent than the two lobes of the upper lip. Finely-toothed, lance-shaped, dark green leaves (to 4\" long). Late summer bloom period. Flowers are very attractive to butterflies and hummingbirds, but not cardinals. White and rose colored forms are also known.\n",
@@ -431,7 +431,7 @@
   {
     "botanical_name": "Lobelia siphilitica",
     "common_name": "Great blue lobelia",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/lobelia-siphilitica.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=i460",
     "description": "Lobelia siphilitica, commonly called great lobelia or blue cardinal flower, is a Missouri native perennial which typically grows in moist to wet locations along streams, sloughs, springs, swamps, meadows and in low wooded areas. A clump-forming perennial which features light to dark blue, tubular, 2-lipped flowers with the three lobes of the lower lip appearing more prominent than the two lobes of the upper lip. Flowers arise from the upper leaf axils forming a dense terminal raceme atop stiff, unbranched, leafy stalks typically rising 2-3' tall. Finely-toothed, lance-shaped, light green leaves (to 5\" long). Late summer bloom period.\n",
@@ -468,7 +468,7 @@
   {
     "botanical_name": "Matteuccia struthiopteris",
     "common_name": "Ostrich fern",
-    "type": "Fern",
+    "plant_type": "Fern",
     "image": "/plantImgs/matteuccia-struthiopteris.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=e180#AllImages",
     "description": "Matteuccia struthiopteris, commonly called ostrich fern, is a clump-forming, upright to arching, rhizomatous, deciduous fern which typically grows 2-3' tall in cultivation, but may reach 6' tall in moist, cool climates in the wild. The showy parts of this fern are the finely dissected, medium green, vegetative (sterile) fronds which, as the common name suggests, exhibit the feathery appearance of long ostrich plumes. The vegetative fronds emerge at the narrow base of the clumps in spring as the familiar \"fiddleheads\" from where they unfurl to a maximum length of 4'. These vegetative fronds usually depreciate as the summer proceeds, begin to look rather tattered by early fall and finally lose their leaflets later in the fall as the plant goes dormant for the winter. The sterile fronds form a huge vase-like crown around the much less showy fertile fronds which are erect, spike-like and dark brown. The fertile fronds arise in mid-summer and persist through the winter.",
@@ -505,7 +505,7 @@
   {
     "botanical_name": "Monarda fistulosa",
     "common_name": "Wild bergamot",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -539,7 +539,7 @@
   {
     "botanical_name": "Osmunda regalis",
     "common_name": "Royal fern",
-    "type": "Fern",
+    "plant_type": "Fern",
     "image": "/plantImgs/osmunda-regalis.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=l320",
     "description": "Osmunda regalis, commonly called royal fern, is a tall, deciduous, Missouri native fern which usually occurs on moist bluffs and ledges and along streams (sometimes growing in the water), primarily in the southeastern Ozark region of the State. Typically grows in clumps to 2-3' tall, but with constant moisture can reach 6' in height. Broad fronds have large, well-separated pinnae (leaflets) which give this fern an almost pea-family appearance. Fronds typically turn yellow to brown in autumn. Spores are located in brown, tassel-like, fertile clusters at the tips of the fronds, thus giving rise to the additional common name of flowering fern for this plant. Osmunda fiber used in the potting of orchids comes from the fibrous roots of these ferns.",
@@ -558,7 +558,7 @@
   {
     "botanical_name": "Packera aurea",
     "common_name": "Golden groundsel",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/packera-aurea.jpg",
     "description": "Packera aurea, commonly called golden ragwort or golden groundsel, is a rhizomatous, spreading, herbaceous perennial native to moist woods, meadows, gravel bars, and stream banks in the eastern United States and southeastern Canada. Features flat-topped clusters (corymbs) of yellow, daisy-like flowers (to 1\" diameter) atop sparsely-leaved stems in early spring. The blooms are attractive to butterflies, bees, and other insect pollinators. Oblong stem leaves are finely cut (pinnately lobed) and quite distinctive. Flowering stems typically rise 1-2' tall from basal clumps of long-stemmed, heart-shaped, toothed, dark green leaves that often have a purplish tinge beneath. The foliage is one of the few larval food sources for the northern metalmark butterfly.",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=l350",
@@ -595,7 +595,7 @@
   {
     "botanical_name": "Penstemon digitalis",
     "common_name": "Foxglove beardtongue",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/penstemon-digitalis.jpg",
     "description": "Penstemon digitalis, commonly called foxglove beardtongue or tall white beardtongue, is a clump-forming, Missouri-native perennial which typically grows 3-5' tall and occurs in prairies, fields, wood margins, open woods and along railroad tracks. Features white, two-lipped, tubular flowers (to 1.25\" long) borne in panicles atop erect, rigid stems. Flowers bloom mid-spring to early summer and are attractive to hummingbirds, butterflies, and other pollinators. Basal leaves are elliptic and stem leaves are lance-shaped to oblong.",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g590",
@@ -614,7 +614,7 @@
   {
     "botanical_name": "Phlox maculata",
     "common_name": "Meadow phlox",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/phlox-maculata.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285431&isprofile=0&n=1",
     "description": "Phlox maculata, commonly called meadow phlox or wild sweet William, is native to eastern North America from New York south to North Carolina and west to Minnesota and Iowa where it typically occurs in moist meadows, low woods and riverbanks. It is an upright, clump-forming, rhizomatous perennial which typically grows 2-3' tall. Sweetly-aromatic, tubular, 5-lobed, pinkish-purple flowers (to 1/2\" across) with long corolla tubes are densely arranged in large, cylindrical, terminal clusters (panicles to 12\" long) atop stiff, upright, red-spotted stems. Narrowly ovate or oblong leaves with cordate bases are oppositely arranged along the stems. Plants seldom need staking. Flowers bloom in summer. Good fresh cut flower. Attractive to butterflies, birds and hummingbirds.",
@@ -633,7 +633,7 @@
   {
     "botanical_name": "Phlox paniculata",
     "common_name": "Garden phlox",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/phlox-paniculata.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f193#AllImages",
     "description": "Phlox paniculata, commonly known as garden phlox, is native from New York to Iowa south to Georgia, Mississippi and Arkansas. It has escaped gardens and naturalized into areas beyond its original native range. In Missouri, it is typically found south of the Missouri River in moist or rich low woods, thickets, alluvial banks and gravel bars along streams and bluff bases (Steyermark). This is an upright perennial that grows in a clump to 2-4' tall and to 2-3' wide on stiff stems clad with conspicuously veined, opposite, pointed, elliptic, deep green leaves (to 4-6\" long). Fragrant, tubular, pink-purple to white florets (to 3/4” diameter) are densely packed in large, tiered, domed terminal clusters (to 6-8\") over a long July to September bloom period. Each individual floret has a long corolla tube and five flat petal-like lobes. Butterflies and hummingbirds love the flowers.",
@@ -652,7 +652,7 @@
   {
     "botanical_name": "Physostegia virginiana",
     "common_name": "False dragonhead",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/physostegia-virginiana.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g620",
     "description": "Physostegia virginiana, commonly called obedient plant or false dragonhead, is a rhizomatous perennial that is native to North America from Quebec to Manitoba south to Florida and New Mexico. In Missouri, it is commonly found in a variety of habitats including open meadows, prairies, stream banks, gravel bars, wooded bluff bases and railroad track right-of-ways (Steyermark). Tubular, two-lipped, snapdragon-like, pink to pale lilac flowers in upright terminal spikes (each to 12-18”) bloom throughout summer (late June-September) atop square stems rising to 2-4’ tall. Flowers bloom bottom to top on each spike, with each flower being subtended by a small leaf-like bract. Stems are clad with opposite, narrow-lanceolate, sharply-toothed leaves (to 3-6” long). Species plants are noted for being aggressive spreaders in the landscape by both rhizomes and self-seeding.",
@@ -671,7 +671,7 @@
   {
     "botanical_name": "Polemonium reptans",
     "common_name": "Jacob's ladder",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/polemonium-reptans.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=l810",
     "description": "Polemonium reptans, commonly called Jacob's ladder, is a herbaceous perennial wildflower that occurs in rich, moist woods and along streams in the parts of the eastern and central United States. Typically grows in a mound to 12\" (less frequently to 18\") tall. Features light blue, bell-shaped flowers (to 3/4\" long) in loose, terminal clusters appearing on sprawling, weak stems in mid to late spring. Pinnately compound leaves with oval leaflets are arranged like the rungs of a ladder (hence the common name). Sometimes also commonly called Greek valerian.\n",
@@ -690,7 +690,7 @@
   {
     "botanical_name": "Rudbeckia fulgida",
     "common_name": "Orange coneflower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/rudbeckia-fulgida.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g630",
     "description": "Rudbeckia fulgida is a herbaceous perennial native to the eastern United States which occurs in both dry and moist soils in open woods, glades and thickets. An upright, rhizomatous, clump-forming, free-blooming coneflower which typically grows to 3' tall, often forming colonies in the wild. Features daisy-like flowers (to 2.5\" across) with yellow rays and brownish-purple center disks. Prolific bloom production over a long mid-summer to fall bloom period. Oblong to lanceolate, medium green foliage. Good cut flower. The flowers are attractive to butterflies and other insect pollinators. Birds eat the seeds.",
@@ -709,7 +709,7 @@
   {
     "botanical_name": "Rudbeckia subtomentosa",
     "common_name": "Sweet coneflower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/rudbeckia-subtomentosa.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g640",
     "description": "Rudbeckia subtomentosa, commonly called sweet coneflower, is a Missouri native, nonrhizomatous perennial which occurs on moist prairies, along streambanks and in low areas throughout the state. Typically grows 3-5' tall and features daisy-like flowers (to 3\" across) with yellow rays and dark brownish-purple center disks on branched stems. Flowers have a mild aroma of anise, hence the common name. Toothed, gray-green leaves (lower leaves are 3-lobed) are downy below. Long summer-to-early-fall bloom period.\n",
@@ -728,7 +728,7 @@
   {
     "botanical_name": "Silphium laciniatum",
     "common_name": "Compass plant",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/silphium-laciniatum.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f580#AllImages",
     "description": "Silphium laciniatum, commonly called compass plant, is a herbaceous perennial native to prairies, glades, roadsides, railroad right-of-ways, and other open, disturbed habitats in the Midwest and portions of the southern United States. A tall, sturdy, rough, bristly plant that grows on stiff, hairy, resinous stems to 9' tall. Features sunflower-like flowers (to 5\" wide) with yellow rays and yellow center disks. Flowers bloom in loose spikes on the upper parts of the plant in summer. Very large, deeply pinnatifid (cut close to the midrib) basal leaves (to 18\" long) are reminiscent of pin oak leaves. Upper leaves are smaller.\n",
@@ -747,7 +747,7 @@
   {
     "botanical_name": "Solidago drummundii",
     "common_name": "Cliff goldenrod",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/solidago-drummundii.jpg",
     "url": "https://www.missouribotanicalgarden.org/plantfinder/plantfinderdetails.aspx?taxonid=277475#AllImages",
     "description": "Solidago drummondii, commonly called cliff goldenrod, is a Missouri native perennial which, as the common name suggests, is found on cliffs, bluffs and ledges throughout the Ozark region of the State. Typically grows 1.5-3' tall on arching stems. Panicles of tiny, bright yellow, daisy-like flowers typically with 3-7 rays per head appear on short branches at the stem ends in late summer to fall. Leaves (to 3.5\" long) are ovate, toothed, hairy below and at least 3-veined. Basal leaves generally dry up and disappear by flowering time. Goldenrods have been wrongfully accused of causing hay fever which is actually an allergic reaction to wind-borne pollen from other plants such as ragweed. Goldenrods are attractive to bees and butterflies.",
@@ -820,7 +820,7 @@
   {
     "botanical_name": "Amorpha fruticosa",
     "common_name": "Indigo bush",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/amorpha-fruticosa.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=280343",
     "description": "False indigo is a deciduous shrub that typically grows to 4-12' (less frequently to 20') tall with a spread often in excess of its height. It is native to moist open woodland areas, floodplains, stream banks and swamp margins from central to eastern Canada south throughout much of the U. S. into northern Mexico. It features compound, odd-pinnate leaves (each to 12\" long). Each leaf contains 11 to 35 spiny-tipped, oval to elliptic, dull gray-green leaflets (to 2\" long) with glandular dots and toothless margins. Tubular scented flowers (each to 3/8\" long) bloom in May-June in dense, spike-shaped clusters (racemes) to 8\" long. Each flower has a single-petaled purple corolla and 10 protruding stamens with showy orange-yellow anthers. Flowers are followed by fruits in small, resinous-dotted, 1-2 seeded pods (to 1/2\" long) which mature in July and August. This shrub grows much larger than Amorpha canescens (lead plant).",
@@ -857,7 +857,7 @@
   {
     "botanical_name": "Cephalanthus occidentalis",
     "common_name": "Buttonbush",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/cephalanthus-occidentalis.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g830#AllImages",
     "description": "Genus name comes from the Greek words kephale meaning \"head\" and anthos meaning \"flower\".\n\nButtonbush is a somewhat coarse, deciduous shrub with an open-rounded habit that typically grows 6-12’ (infrequently to 20’) tall. It is common throughout Missouri, most frequently occurring in wet open areas, low woods, thickets, swamps, upland sink-hole ponds, river bottomland and stream/pond margins (Steyermark). Tiny, tubular, 5-lobed, fragrant white flowers appear in dense, spherical, long-stalked flower heads (to 1.5” diameter) in early to mid-summer. Long, projecting styles give the flower heads a distinctively pincushion-like appearance. Flower heads are very attractive to hummingbirds, butterflies, and other insect pollinators. Flower heads mature into hard spherical ball-like fruits consisting of multiple tiny two-seeded nutlets. Fruiting heads usually persist throughout the winter. Ovate to elliptic glossy bright green leaves (to 6” long) are in pairs or whorls. Leaves emerge late in spring.",
@@ -891,7 +891,7 @@
   {
     "botanical_name": "Cornus racemosa",
     "common_name": "Gray dogwood",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -922,7 +922,7 @@
   {
     "botanical_name": "Dirca palustris",
     "common_name": "Leatherwood",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/dirca-palustris.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=287357&isprofile=1&basic=Dirca%20palustris#AllImages",
     "description": "Dirca palustris, commonly called leatherwood, is a small deciduous shrub that typically grows 4-6' (infrequently to 9') tall. It is native to the forest understory of eastern North America, but is uncommon in most of its range. In Missouri, it is most often found in the Ozarks in low bottom woods, rich wooded slopes, rocky wooded bluffs and along streambanks (Steyermark). Bell-shaped, pale lemon-yellow flowers (to 1/4\" long) with long yellow stamens bloom in axillary clusters along the branches in early spring (March-April) before the leaves emerge. Flowers give way to green drupes (to 1/2\" diameter) which mature in late spring to early summer. Elliptic to obovate leaves (to 3-4\" long) emerge yellow-green in spring, mature to medium green in summer and turn a pleasant bright yellow in fall. Bark is leathery, tough and strong. Twigs are extremely pliable. Native Americans used the twigs and bark for a number of purposes including making bow strings, baskets, fishing line and rope. Some people have allergic reactions to contact with the bark. The bark, fruits and roots of this shrub are toxic.",
@@ -941,7 +941,7 @@
   {
     "botanical_name": "Hydrangea arborescens",
     "common_name": "Wild hydrangea",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/hydrangea-arborescens.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=k520",
     "description": "Hydrangea arborescens, commonly known as smooth hydrangea or wild hydrangea, is a loosely and widely branched deciduous shrub that typically grows to 3-6’ (less frequently to 10’) tall. It is native to moist or rocky wooded slopes, ravines, streambanks and bluff bases from New York to Florida west to Iowa, Missouri, Oklahoma and Louisiana. Gray-brown stems are clad with opposite, broad egg-shaped to rounded, sharply toothed, dark green leaves (2-6” long) with pale green undersides. Leaves turn yellow in fall. Tiny white fertile flowers bloom in May-July in flattened hairy clusters (corymbs to 2-6”across). Scattered continuing flowering may occur throughout summer to September. A few large sterile flowers usually appear at the cluster margins (usually not enough for a quality lacecap effect). Flowers give way to dehiscent seed capsules which ripen in October-November.",
@@ -960,7 +960,7 @@
   {
     "botanical_name": "Ilex decidua",
     "common_name": "Deciduous Holly",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -991,7 +991,7 @@
   {
     "botanical_name": "Lindera benzoin",
     "common_name": "Spice bush",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/lindera-benzoin.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d890",
     "description": "Lindera benzoin, commonly called spicebush, is a Missouri native deciduous shrub with a broad, rounded habit which typically grows 6-12' (less frequently to 15') high in moist locations in bottomlands, woods, ravines, valleys and along streams. Clusters of tiny, apetalous, aromatic, greenish-yellow flowers bloom along the branches in early spring before the foliage emerges. Dioecious (male and female flowers on separate plants), with the male flowers being larger and showier than the female ones. Flowers of female plants give way to bright red drupes (to 1/2\" long) which mature in fall and are attractive to birds. Female plants need a male pollinator in order to set fruit, however. Drupes are very attractive, but may be hidden by the foliage until the leaves drop. Thick, oblong-obovate, light green leaves (to 5\" long) turn an attractive yellow in autumn. Leaves are aromatic when crushed. The larva (caterpillar) of the spicebush swallowtail butterfly feeds on the leaves of this shrub.",
@@ -1028,7 +1028,7 @@
   {
     "botanical_name": "Physocarpus opulifolius",
     "common_name": "Ninebark",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/physocarpus-opulifolius.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=g840#AllImages",
     "description": "Physocarpus opulifolius, commonly called ninebark, is an upright, spreading, somewhat coarse, deciduous, Missouri-native shrub which is closely related to the genus Spiraea. In Missouri, it typically occurs along streams, rocky banks, gravel bars and in moist thickets, especially in counties south of the Missouri River (Steyermark). Grows 5-9’ tall (less frequently to 10’). Noted for its exfoliating bark (on mature branches) which peels in strips to reveal several layers of reddish to light brown inner bark (hence the common name of ninebark). Bark provides winter interest, but is usually hidden by the foliage during the growing season. Features small pink or white, five-petaled flowers appearing in dense, flat, rounded, 1-2” diameter, spirea-like clusters (corymbs) in late spring. Flowers give way to drooping clusters of reddish fruit (inflated seed capsules). Ovate to rounded, usually 3-5 lobed leaves (to 4” long) are dull green in summer changing to an undistinguished yellow in fall.\n",
@@ -1047,7 +1047,7 @@
   {
     "botanical_name": "Sambucus canadensis",
     "common_name": "Elderberry",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/sambucus-canadensis.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f470#AllImages",
     "description": "Sambucus canadensis, commonly called American elder, is native to eastern North America. It is a deciduous, somewhat sprawling, suckering shrub that typically grows to 5-12’ tall. It typically occurs on streambanks, moist woodlands, thickets, fence rows and roadsides throughout the State of Missouri. Tiny lemon-scented white flowers appear in large flat-topped clusters (cymes to 10” across) in June. Flowers give way to clusters of black elderberry fruits (drupes) in late summer. Fruits of species plants are sometimes used to make jams, jellies, pie filings and elderberry wine. Fruits are attractive to wildlife. American elder (Sambucus canadensis) and European elder (Sambucus nigra) are closely related plants. Some authorities consider this plant to be a subspecies or variety of Sambucus nigra instead of a separate species.",
@@ -1066,7 +1066,7 @@
   {
     "botanical_name": "Viburnum dentatum",
     "common_name": "Arrowwood",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/viburnum-dentatum.jpg",
     "url": "https://www.missouribotanicalgarden.org/plantfinder/PlantFinderDetails.aspx?taxonid=278980#AllImages",
     "description": "Viburnum dentatum, commonly called arrowwood viburnum, is an upright, rounded, multi-stemmed, deciduous shrub which typically matures to 6-10' tall with a similar spread, but may reach a height of 15' in optimum growing conditions. Non-fragrant white flowers in flat-topped corymbs (to 4\" diameter) appear in late spring. Flowers give way to blue-black, berry-like drupes which are quite attractive to birds and wildlife. Ovate, toothed, glossy dark green leaves (to 4\" long). Variable fall color ranges from drab yellow to attractive shades of orange and red. Although widespread in eastern North America, this native plant is only known to exist in the wild in Missouri on wooded slopes along the Salt River in Shelby County.",
@@ -1103,7 +1103,7 @@
   {
     "botanical_name": "Aesculus glabra",
     "common_name": "Ohio buckeye",
-    "type": "Tree",
+    "plant_type": "Tree",
     "image": "/plantImgs/aesculus-glabra.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a845",
     "description": "Aesculus glabra, commonly called Ohio buckeye, is native from western Pennsylvania to Iowa south to Alabama and Arkansas. It is found throughout the State of Missouri where it typically occurs in rich or rocky wooded areas of valleys, ravines, bluff bases, slopes and thickets (Steyermark). This is a low-branched, small to medium sized deciduous tree that typically grows 20-40’ (less frequently to 75’) tall with a broad oval-rounded crown. Bright green palmate compound leaves emerge in spring, each with five spreading ovate-oblong leaflets to 3-6” long. Leaves mature to dark green in summer. Fall color is usually yellow, although foliage may develop interesting and attractive shades of orange and red in some years. Greenish-yellow flowers (to 1” long) appear in clusters in mid-spring (late April-May in St. Louis). Flowers are followed by the familiar fruit, which is a globular dehiscent capsule consisting of 1-2 buckeyes encased by a leathery light brown partitioned husk covered with warty spines. Fruit on the tree is interesting but not particularly ornamental. When ripe, each buckeye turns a handsome shiny dark mahogany brown with a light tan eye. Since colonial times, buckeyes have been carried by many school children and adults as good luck charms. Ohio is known as the Buckeye State and has adopted the buckeye as its State Tree. All parts of this tree, particularly the flowers, bark and twigs, emit an unpleasant odor when bruised, hence the sometimes common name of fetid buckeye.\n",
@@ -1122,7 +1122,7 @@
   {
     "botanical_name": "Aesculus pavia",
     "common_name": "Red buckeye",
-    "type": "Tree",
+    "plant_type": "Tree",
     "image": "/plantImgs/aesculus-pavia.jpg",
     "url": "https://www.missouribotanicalgarden.org/plantfinder/PlantFinderDetails.aspx?taxonid=281049",
     "description": "Aesculus pavia, commonly called red buckeye, is a deciduous clump-forming shrub or small tree with an irregular rounded crown. It typically grows 10-20’ tall. Showy, erect, 4-10” long panicles of red to orange-red, narrow-tubular flowers appear in spring. Palmately compound, shiny, dark green leaves are attractive in spring and early summer, but usually begin to decline by August. Smooth, light brown, globular (1-2” diameter) seed capsules encase 1-3 shiny seeds called buckeyes that ripen in the fall. Seeds are poisonous and are avoided by most wildlife. Fall foliage color is unremarkable. Red buckeye is native to southeastern Missouri where it typically occurs in low rich wooded valleys, at bluff bases, on wooded slopes and along streams (Steyermark). Flowers are attractive to ruby-throated hummingbirds and bloom in St. Louis at about the same time that the hummingbirds return to the area in spring migration.\n ",
@@ -1141,7 +1141,7 @@
   {
     "botanical_name": "Asimina triloba",
     "common_name": "Pawpaw",
-    "type": "Tree",
+    "plant_type": "Tree",
     "image": "/plantImgs/asimina-triloba.jpg",
     "url": "",
     "description": "",
@@ -1160,7 +1160,7 @@
   {
     "botanical_name": "Betula nigra",
     "common_name": "River birch",
-    "type": "Tree",
+    "plant_type": "Tree",
     "image": "/plantImgs/betula-nigra.jpg",
     "url": "https://www.missouribotanicalgarden.org/plantfinder/PlantFinderDetails.aspx?taxonid=277830",
     "description": "Betula nigra, commonly called river birch, is a vigorous, fast-growing, medium-sized, Missouri native deciduous tree which occurs on floodplains, swampy bottomlands and along streams throughout the State. In cultivation, it can be trained as either a single trunk or multi-trunked tree. As a single trunk tree, it develops a pyramidal habit when young, but matures to a more rounded shape typically growing 40-70' tall. Multi-trunked trees form a more irregular crown and are generally considered to be the superior growth habit for this species. Salmon-pink to reddish brown bark exfoliates to reveal lighter inner bark. Leathery, diamond-shaped, medium to dark green leaves (1.5-3.5\" long) with doubly toothed margins turn yellow in fall. Monoecious flowers appear in drooping, brownish male catkins and smaller, upright, greenish female catkins.",
@@ -1179,7 +1179,7 @@
   {
     "botanical_name": "Carpinus caroliniana",
     "common_name": "Musclewood/hornbeam",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1225,7 +1225,7 @@
   {
     "botanical_name": "Crataegus viridis",
     "common_name": "Green hawthorn",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1256,7 +1256,7 @@
   {
     "botanical_name": "Gymnocladus dioicus",
     "common_name": "Kentucky coffeetree",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1272,7 +1272,7 @@
   {
     "botanical_name": "Hamamelus vernalis",
     "common_name": "Ozark witch hazel",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1318,7 +1318,7 @@
   {
     "botanical_name": "Nyssa sylvatica",
     "common_name": "Black gum",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1334,7 +1334,7 @@
   {
     "botanical_name": "Prunus serotina",
     "common_name": "Black cherry",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1350,7 +1350,7 @@
   {
     "botanical_name": "Quercus bicolor",
     "common_name": "Swamp white oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1366,7 +1366,7 @@
   {
     "botanical_name": "Quercus macrocarpa",
     "common_name": "Bur oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1382,7 +1382,7 @@
   {
     "botanical_name": "Quercus phellos",
     "common_name": "Willow oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1413,7 +1413,7 @@
   {
     "botanical_name": "Taxodium disticum",
     "common_name": "Bald cypress",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "moist",
     "full_sun": "X",
     "part_shade": "X",
@@ -1429,7 +1429,7 @@
   {
     "botanical_name": "Achillea millefolium",
     "image": "/plantImgs/achillea-millefolium.jpg",
-    "type": "Forb",
+    "plant_type": "Forb",
     "description": "Achillea millefolium, commonly called common yarrow, is a rhizomatous, spreading, upright to mat-forming perennial that is considered by many to be an aggressive weed. Common yarrow from Europe and Asia was originally introduced to America in colonial times, and has since naturalized throughout the U. S. primarily along roadsides, fields, waste areas and lawns. These species plants are noted for producing deeply-dissected, fern-like, aromatic, medium green foliage and tiny, long-lasting, white flowers that appear in dense, flattened, compound, corymb-like arrays (to 2-4” across) throughout the summer on stems typically rising 2-3’ tall. The flowers are attractive to butterflies and other insect pollinators. Foliage has a strong, somewhat spicy aroma that persists when used in dried arrangements. Species plants are uncommonly sold in commerce, however. It is the cultivars and hybrids of common yarrow, most of which have stronger stems, more upright habits and larger flowers, that have become popular flowering plants for ornamental gardens. Cultivars also extend the range of flower colors to include pinks, reds, creams, yellows and bicolor pastels.",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b282",
     "common_name": "Yarrow",
@@ -1445,7 +1445,7 @@
   {
     "botanical_name": "Amsonia hubrichtii",
     "common_name": "Arkansas blue star",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1458,7 +1458,7 @@
   {
     "botanical_name": "Amsonia ciliata",
     "common_name": "Fringed blue star",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1471,7 +1471,7 @@
   {
     "botanical_name": "Amsonia tabernaemontana",
     "common_name": "Woodland blue star",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1508,7 +1508,7 @@
   {
     "botanical_name": "Asclepias tuberosa",
     "common_name": "Butterfly milkweed",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/asclepias-tuberosa.jpg",
     "url":"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b490",
     "description": "Asclepias tuberosa, commonly called butterfly weed, is a tuberous rooted, Missouri native perennial which occurs in dry/rocky open woods, glades, prairies, fields and roadsides throughout the State (Steyermark). It typically grows in a clump to 1-2.5' tall and features clusters (umbels) of bright orange to yellow-orange flowers atop upright to reclining, hairy stems with narrow, lance-shaped leaves. Unlike many of the other milkweeds, this species does not have milky-sapped stems. Flowers give way to prominent, spindle-shaped seed pods (3-6\" long) which split open when ripe releasing numerous silky-tailed seeds for dispersal by the wind. Seed pods are valued in dried flower arrangements. Long bloom period from late spring throughout the summer. Flowers are a nectar source for hummingbirds, butterflies and many other pollinators, and leaves are a food source for monarch butterfly larvae (caterpillars).",
@@ -1524,7 +1524,7 @@
   {
     "botanical_name": "Baptisia australis",
     "common_name": "Blue indigo",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/baptisia-australis.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b660",
     "description": "Baptisia australis, commonly called blue false indigo, is an upright perennial which typically grows 3-4' tall and occurs in rich woods, thickets and along streambanks from Pennsylvania south to North Carolina and Tennessee. It features purple, lupine-like flowers in erect racemes (to 12\") atop flower spikes extending well above a foliage mound of clover-like, trifoliate, bluish-green leaves (leaflets to 2\" long). Blooms in spring. Flowers give way to inflated seed pods (to 2.5\" long) which turn charcoal black when ripe and have considerable ornamental interest. Seeds rattle around in the blackened pods which were once popularly used by children as rattles. Stems with seed pods are valued additions to dried flower arrangements.",
@@ -1567,7 +1567,7 @@
   {
     "botanical_name": "Carex albicans",
     "common_name": "Oak sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1580,7 +1580,7 @@
   {
     "botanical_name": "Carex eburnea",
     "common_name": "Cedar sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1593,7 +1593,7 @@
   {
     "botanical_name": "Carex pennsylvanica",
     "common_name": "Pennsylvania sedge",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1606,7 +1606,7 @@
   {
     "botanical_name": "Coreopsis palmata",
     "common_name": "Prairie coreopsis",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1619,7 +1619,7 @@
   {
     "botanical_name": "Coreopsis pubescens",
     "common_name": "Star coreopsis",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1633,7 +1633,7 @@
     "botanical_name": "Diarrhena obovata",
     "common_name": "Beak grass",
     "descsription": "Don't eat it, trust diarrhename.",
-    "type": "Grass",
+    "plant_type": "Grass",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1646,7 +1646,7 @@
   {
     "botanical_name": "Echinacea pallida",
     "common_name": "Pale purple coneflower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1659,7 +1659,7 @@
   {
     "botanical_name": "Echinacea purpurea",
     "common_name": "Purple coneflower",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1684,7 +1684,7 @@
   {
     "botanical_name": "Geranium maculatum",
     "common_name": "Wild geranium",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1709,7 +1709,7 @@
   {
     "botanical_name": "Heuchera richardsonii",
     "common_name": "Prairie alumroot",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1722,7 +1722,7 @@
   {
     "botanical_name": "Heuchera villosa",
     "common_name": "Maple-leaf alumroot",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1735,7 +1735,7 @@
   {
     "botanical_name": "Iris cristata",
     "common_name": "Crested iris",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1748,7 +1748,7 @@
   {
     "botanical_name": "Liatris pycnostachya",
     "common_name": "Prairie blazing star",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1761,7 +1761,7 @@
   {
     "botanical_name": "Monarda bradburiana",
     "common_name": "Bradbury beebalm",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/monarda.jpg",
     "description": "Monarda bradburiana (Eastern Beebalm) and Monarda fistulosa (Wild Bergamot) are both bee balm species, but they have key differences in their size, habit, and flowering times. Monarda bradburiana is shorter, clumping, and blooms earlier in the season compared to Monarda fistulosa, which is taller and spreads more by underground runners.",
     "url": "https://mdc.mo.gov/discover-nature/field-guide/wild-bergamot",
@@ -1777,7 +1777,7 @@
   {
     "botanical_name": "Oenothera macrocarpa",
     "common_name": "Missouri evening primrose",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1790,7 +1790,7 @@
   {
     "botanical_name": "Packera obovata",
     "common_name": "Roundleaf groundsel",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/packera-obovata.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292089&isprofile=1&basic=packera%20obovata",
     "description": "Packera obovata, commonly called roundleaf ragwort or roundleaf groundsel, is valued for its ability to thrive in shady locations, naturalize rapidly, and produce a long and profuse spring bloom of bright yellow flowers. It is native to rocky wooded hillsides, open rocky glades, limestone ledges, stream banks and moist meadows from Quebec and Ontario south to Texas and Florida. In Missouri it most often is found in the Ozark region in the southern and central part of the State (Steyermark). Flat-topped clusters (corymbs) of daisy-like flowers (3/4\" diameter) with yellow rays and yellow central disks bloom in spring (April-June) atop sparsely-leaved stems rising to 18\" tall. Flowering stems rise from a basal clump of serrate, rounded to spatulate leaves (to 2-4\" long) each of which tapers at the base into a long petiole. Upper stem leaves are much smaller, sessile and pinnately lobed. Synonymous with Senecio obovatus.",
@@ -1830,7 +1830,7 @@
   {
     "botanical_name": "Polygonatum biflorum",
     "common_name": "Solomon's seal",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1843,7 +1843,7 @@
   {
     "botanical_name": "Pycnanthemum tenuifolium",
     "common_name": "Slender mountain mint",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1883,7 +1883,7 @@
   {
     "botanical_name": "Salvia azurea",
     "common_name": "Blue sage",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/salvia-azurea.jpg",
     "description": "Salvia azurea, commonly called blue sage, is a clump-forming perennial that typically grows to 3-5’ tall (shorter if pruned). Whorls of 2-lipped, azure blue flowers bloom in spikes from mid-summer to fall atop stiff stems clad with linear to lanceolate to obovate, grayish-green leaves (to 3-4” long). Salvia azurea var. azurea is native from North Carolina and Tennessee south to Florida and Texas. Salvia azurea var. grandiflora grows further west to New Mexico and further north to Nebraska and Minnesota. Although similar in appearance, var. grandiflora has larger flowers and is often considered to be a better garden plant than var. azurea.\n\nThe genus name Salvia comes from the Latin word salveo meaning \"to save or heal\", in reference to the purported medically curative properties attributed to some plants in the genus.\n",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281504",
@@ -1914,7 +1914,7 @@
   {
     "botanical_name": "Schizachyrium scoparium",
     "common_name": "Little bluestem",
-    "type": "Grass",
+    "plant_type": "Grass",
     "image": "/plantImgs/schizachyrium-scoparium.jpg",
     "description": "Schizachyrium scoparium, commonly called little bluestem, is native to prairies, fields, clearings, hills, limestone glades, roadsides, waste areas and open woods from Alberta to Quebec south to Arizona and Florida. It was one of the dominant grasses of the vast tallgrass prairie region which once covered rich and fertile soils in many parts of central North America. It typically matures to 2-4’ (less frequently to 5’) tall, and features upright clumps of slender, flat, linear green leaves (to 1/4“ wide), with each leaf having a tinge of blue at the base. The foliage turns shades of bronze-orange in the fall. Purplish-bronze flowers appear in 3” long racemes on branched stems rising above the foliage in August. Flowers are followed by clusters of fluffy, silvery-white seed heads which are attractive and often persist into winter. The seeds are eaten by many species of birds.",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f510",
@@ -1930,7 +1930,7 @@
   {
     "botanical_name": "Solidago flexicaulis",
     "common_name": "Broad-leaved goldenrod",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1943,7 +1943,7 @@
   {
     "botanical_name": "Solidago speciosa",
     "common_name": "Showy goldenrod",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1956,7 +1956,7 @@
   {
     "botanical_name": "Spigelia marilandica",
     "common_name": "Indian pink",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1969,7 +1969,7 @@
   {
     "botanical_name": "Sporobolus heterolepis",
     "common_name": "Prairie dropseed",
-    "type": "Grass",
+    "plant_type": "Grass",
     "image": "/plantImgs/sporobolus-heterolepis.jpg",
     "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=f680",
     "description": "Sporobolus heterolepis, called prairie dropseed, is a clump-forming, warm season, perennial grass which typically occurs in prairies, glades, open ground and along railroads in parts of the central and western United States and southern Canada. Fine-textured, hair-like, medium green leaves (to 20” long and 1/16” wide) typically form an arching foliage mound to 15” tall and 18” wide. Foliage turns golden with orange hues in fall, fading to light bronze in winter. Open, branching flower panicles appear on slender stems which rise well above the foliage clump in late summer to 30-36\" tall. Flowers have pink and brown coloration but are perhaps most noted for their unique and noticeable (some may say pungent) scent that has variously been described as resembling a combination of coriander, popcorn, honey, sunflower seeds, and melted wax. Tiny rounded mature seeds drop to the ground from their hulls in autumn giving rise to the descriptive common name.",
@@ -1985,7 +1985,7 @@
   {
     "botanical_name": "Symphyotrichum oblongifolium",
     "common_name": "Aromatic aster",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -1998,8 +1998,7 @@
   {
     "botanical_name": "Tradescantia ohiensis",
     "common_name": "Ohio spiderwort",
-    "type": "Forb",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2012,7 +2011,7 @@
   {
     "botanical_name": "Vernonia arkansana",
     "common_name": "Curlytop ironweed",
-    "type": "Forb",
+    "plant_type": "Forb",
     "image": "/plantImgs/vernonia.jpg",
     "url:": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277605",
     "description": "Vernonia arkansana, commonly called curlytop ironweed or Arkansas ironweed, is native from Illinois to Kansas south to Arkansas and Oklahoma. In Missouri, it typically occurs in gravel and sand bars along streams, slough margins, wet meadows, thickets, open woods, prairies and glades primarily in the Ozark region of the state (Steyermark). This plant is noted for its narrow, willow-like leaves, large flowering heads and narrow, twisting, involucral bracts. It is an upright perennial that typically grows on stiff, leafy, nearly glabrous stems which grow to 3-5’ tall in cultivation, but to as much as 6’ tall in the wild. Linear to linear-lanceolate leaves (to 7” long) are usually glabrous. Composite flowers, each with fluffy, pink-purple disks (rays absent), bloom in loose, corymbose cymes from late summer into fall. Flowers give way to rusty seed clusters. The source of the common name for vernonias has been varyingly attributed to certain “iron-like” plant qualities including tough stems, rusty-tinged fading flowers and rusty colored seeds. Notwithstanding its toughness, the plant is, with the exception of its attractive flowers, a somewhat unexceptional ornamental. Flowers are very attractive to butterflies. The within species is synonymous with and formerly known as V. crinita.",
@@ -2028,7 +2027,7 @@
   {
     "botanical_name": "Veronicastrum virginicum",
     "common_name": "Culver's root",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2041,7 +2040,7 @@
   {
     "botanical_name": "Zizia aurea",
     "common_name": "Golden Alexander",
-    "type": "Forb",
+    "plant_type": "Forb",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2078,7 +2077,7 @@
   {
     "botanical_name": "Cornus drummondii",
     "common_name": "Rough-leaved dogwood",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2091,7 +2090,7 @@
   {
     "botanical_name": "Cornus racemosa",
     "common_name": "Gray dogwood",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2104,7 +2103,7 @@
   {
     "botanical_name": "Corylus americana",
     "common_name": "Hazelnut",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2117,7 +2116,7 @@
   {
     "botanical_name": "Euonymus atropurpureus",
     "common_name": "Wahoo",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2154,7 +2153,7 @@
   {
     "botanical_name": "Rhus aromatica",
     "common_name": "Fragrant sumac",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2179,7 +2178,7 @@
   {
     "botanical_name": "Salix humilis",
     "common_name": "Prairie willow",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "image": "/plantImgs/salix-humilis.jpg",
     "url": "https://grownative.org/native_plants/prairie-willow/",
     "description": "Fuzzy flowers open March-May, before leaves emerge. The slowly spreading nature of this shrub results in a multi-stemmed plant that is wider than tall (usually around 4 ft). Unlike many other moisture-loving willows, this one prefers drier ground. Rabbits and deer eat twigs, leaves and shoots. Bees use the nectar to produce high quality honey. Dense thickets provide good wildlife cover. Host plant for larvae of the viceroy butterfly.",
@@ -2195,7 +2194,7 @@
   {
     "botanical_name": "Viburnum rufidulum",
     "common_name": "Rusty blackhaw viburnum",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2220,7 +2219,7 @@
   {
     "botanical_name": "Amelanchier arborea",
     "common_name": "Serviceberry",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2245,7 +2244,7 @@
   {
     "botanical_name": "Chionanthus virginicus",
     "common_name": "Fringetree",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2259,7 +2258,7 @@
     "botanical_name": "Cornus alternifolia",
     "common_name": "Pagoda dogwood",
 
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2272,7 +2271,7 @@
   {
     "botanical_name": "Cornus florida",
     "common_name": "Flowering dogwood",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2297,7 +2296,7 @@
   {
     "botanical_name": "Hamamelis virginiana",
     "common_name": "Eastern witch hazel",
-    "type": "Shrub",
+    "plant_type": "Shrub",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2310,7 +2309,7 @@
   {
     "botanical_name": "Ilex opaca",
     "common_name": "American holly",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2362,7 +2361,7 @@
   {
     "botanical_name": "Quercus alba",
     "common_name": "White oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2375,7 +2374,7 @@
   {
     "botanical_name": "Quercus muehlenbergii",
     "common_name": "Chinkapin oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2388,7 +2387,7 @@
   {
     "botanical_name": "Quercus rubra",
     "common_name": "Red oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
@@ -2401,7 +2400,7 @@
   {
     "botanical_name": "Quercus shumardii",
     "common_name": "Shumard oak",
-    "type": "Tree",
+    "plant_type": "Tree",
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",

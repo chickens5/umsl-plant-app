@@ -407,7 +407,7 @@ body {
     transition: --btn-glow-inner 200ms, --btn-inner 200ms, --btn-outer 200ms, --btn-reflex-bottom-1 500ms, --btn-reflex-bottom-2 500ms, --btn-reflex-top-1 500ms, --btn-reflex-top-2 500ms, box-shadow 200ms, text-shadow 400ms, transform 200ms;
 }
 
-.btn-susInfo {
+.btn-filters {
     --btn-inner: hsla(144deg 10% 22% / 35%);
     --btn-outer: hsla(144deg 10% 22% / 25%);
     --btn-glow-inner: hsla(144deg 83% 100% / 0%);
