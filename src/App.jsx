@@ -1,3 +1,19 @@
+/* Food Systems – Regenerative agriculture, foraging, food forests.
+ Water Systems – Harvesting, filtration, greywater, purification.
+
+Power & Energy – Solar, human-powered, biogas, passive design.
+
+Shelter & Construction – Cob, earthbags, timber, local materials.
+
+Clothing & Fibers – Growing, weaving, repurposing, zero-waste apparel.
+
+♻Waste & Sanitation – Compost toilets, recycling, greywater systems.
+
+Community & Governance – Decision-making, sharing, education.
+
+Culture, Knowledge & Health – Herbalism, teaching, art, spiritual values. */
+
+
 import React, { useState, useEffect, useRef } from "react";
 import './styles/global.css';
 import './styles/components.css';
@@ -10,7 +26,8 @@ export default function NativePlantRecommender() {
         soilType: [],
         sunlight: [],
         habitat: [],
-        plantType: []
+        plantType: [],
+        plantStatus: []
     });
     const [recommendations, setRecommendations] = useState([]);
     const [selectedPlant, setSelectedPlant] = useState(null);
@@ -22,6 +39,7 @@ export default function NativePlantRecommender() {
     const pageContainerRef = useRef(null);
 
     const filterOptions = {
+        plantStatus: ['S1', 'S2', 'S3', 'S4', 'S5'],
         soilType: ['moist', 'dry'],
         sunlight: ['full_sun', 'part_shade', 'full_shade'],
         plantType: ['Tree','Shrub','Forb','Fern'],
@@ -38,7 +56,7 @@ export default function NativePlantRecommender() {
         'rain_garden_wet': 'Rain Garden (Wet soil)',
         'rain_garden_dry': 'Rain Garden (Dry soil)',
         'bioswale': 'Bioswale',
-        'wildlife_keystone': 'Wildlife/Pollinator Friendly',
+        'wildlife_keystone': 'Wildlife Keystone',
         'ground_cover': 'Ground Cover'
     };
 
@@ -186,128 +204,49 @@ export default function NativePlantRecommender() {
                     bioswales, and sustainable landscaping.
                 </h4>
 
-                {/* Filter Section */}
                 <div className="filter-section">
                     <h4 className = 'header-container'>Filter Plants:</h4>
-
                     <div className="filter-group">
-                        <h5>Plant Type:</h5>
+                        <h5 className ='mini-container'>Plant Type:</h5>
                         {filterOptions.plantType.map(plant_type => (
                             <label key={plant_type}>
-                                <input
-                                    type="checkbox"
-                                    checked={selectedFilters.plantType.includes(plant_type)}
-                                    onChange={() => handleFilterChange('plantType', plant_type)}
-                                />
                                {plant_type === 'Tree' ? 'Tree' : ''}
                                 {plant_type === 'Forb' ? 'Forb' : ''}
                                 {plant_type === 'Shrub' ? 'Shrub' : ''}
                                 {plant_type === 'Grass' ? 'Grass' : ''}
                                 {plant_type === 'Fern' ? 'Fern' : ''}
-                            </label>
-                        ))}
-                    </div>
-
-                    <div className="filter-group">
-                        <h5 className ='mini-container'>Soil Type:</h5>
-                        {filterOptions.soilType.map(type => (
-                            <label key={type}>
                                 <input
                                     type="checkbox"
-                                    checked={selectedFilters.soilType.includes(type)}
-                                    onChange={() => handleFilterChange('soilType', type)}
+                                    checked={selectedFilters.plantType.includes(plant_type)}
+                                    onChange={() => handleFilterChange('plantType', plant_type)}
                                 />
-                                {type === 'moist' ? 'Moist Areas' : 'Dry Areas'}
                             </label>
                         ))}
-                    </div>
-
-                    <div className="filter-group">
-                        <h5>Sunlight:</h5>
+                        <h5 className ='mini-container'>Sunlight:</h5>
                         {filterOptions.sunlight.map(light => (
                             <label key={light}>
+                                {light === 'full_sun' ? 'Full Sun' : light === 'part_shade' ? 'Part Shade' : 'Full Shade'}
                                 <input
                                     type="checkbox"
                                     checked={selectedFilters.sunlight.includes(light)}
                                     onChange={() => handleFilterChange('sunlight', light)}
                                 />
-                                {light === 'full_sun' ? 'Full Sun' :
-                                    light === 'part_shade' ? 'Part Shade' : 'Full Shade'}
                             </label>
                         ))}
-                    </div>
-
-                    <div className="filter-group">
                         <h5 className ='mini-container'>Habitat/Use:</h5>
                         {filterOptions.habitat.map(habitat => (
                             <label key={habitat}>
+                                {habitatDisplayNames[habitat]}
                                 <input
                                     type="checkbox"
                                     checked={selectedFilters.habitat.includes(habitat)}
                                     onChange={() => handleFilterChange('habitat', habitat)}
                                 />
-                                {habitatDisplayNames[habitat]}
                             </label>
                         ))}
                     </div>
                 </div>
             </div>
-
-            {selectedPlant && (
-                <div className="results-list">
-                    <div className="plant-details">
-                        <div className="header-container">
-                            <strong ref={plantDetailRef}>Scientific Name</strong><br />
-                            <h4>{selectedPlant.botanical_name}</h4>
-                            <h2>Common Name:</h2>
-                            <strong>{selectedPlant.common_name.toUpperCase()}</strong>
-                        </div>
-                        <section className={'plant-tag-container'}>
-                            <strong>Type: {selectedPlant.plant_type || ''}</strong>
-                            <h4 className ='mini-container'>Plant Characteristics:</h4>
-                            <p>Soil: {selectedPlant.soil_type === 'moist' ? 'Moist areas' : 'Dry areas'}</p>
-                            <p>Sun: {selectedPlant.full_sun ? 'Full sun' : ''}
-                                {selectedPlant.part_shade ? ' Part shade' : ''}
-                                {selectedPlant.full_shade ? ' Full shade' : ''}</p>
-                            <p>Height: {selectedPlant.height}</p>
-                            <p>Bloom Time: {selectedPlant.bloom_time}</p>
-                            <h4 className ='mini-container'>Recommended Uses:</h4>
-                            <p>{getPlantHabitats(selectedPlant).join(', ') || 'None specified'}</p>
-                        </section>
-                        <div>
-                            <h3>Genus:</h3>
-                            <h4>{(selectedPlant.botanical_name.split(' ')[0])}</h4>
-                            <div className="plant-image-container">
-                                <img
-                                    className="plant-image"
-                                    src={getImageFromJson(selectedPlant, genusImages)}
-                                    alt={selectedPlant.botanical_name}
-                                />
-
-                            </div>
-                            <button className='pagination-button'>
-                                <a href={getSourceUrl(selectedPlant, genusImages)}>Source</a>
-
-                            </button>
-
-                            <section className="plant-details">
-                                <p>
-                                    {getDescription(selectedPlant, genusImages)}
-                                </p>
-
-                                <div className="plant-traits">
-                                    <h4>Sustainability Traits:</h4>
-                                    {selectedPlant.rain_garden_wet && <span className="trait-badge wet">Loves Water</span>}
-                                    {selectedPlant.rain_garden_dry && <span className="trait-badge dry">Drought Tolerant</span>}
-                                    {selectedPlant.bioswale && <span className="trait-badge bioswale">Flooding Control/Bioswale</span>}
-                                    {selectedPlant.wildlife_keystone && <span className="trait-badge wildlife">Wildlife/Pollinator</span>}
-                                    {selectedPlant.ground_cover && <span className="trait-badge groundcover">Ground Cover</span>}
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            )}
 
             {loading && (
                 <div className="loading-message">
@@ -316,7 +255,7 @@ export default function NativePlantRecommender() {
             )}
 
             {recommendations.length > 0 && (
-                    <div className="content-container">
+                <div className="content-container">
                     <div className="header-container">
                         <h3>🌾 Recommendations ({recommendations.length})</h3>
                     </div>
@@ -327,10 +266,11 @@ export default function NativePlantRecommender() {
                                 <strong>{plant.plantType}</strong><br />
                                 <em>{plant.botanical_name}</em>
                                 <div className="plant-traits">
-                                    {plant.rain_garden_wet && <span className="trait-badge wet">Loves Water</span>}
-                                    {plant.rain_garden_dry && <span className="trait-badge dry">Drought Tolerant</span>}
+                                    {plant.rain_garden_wet && <span className="trait-badge wet">Loves Water (Rain garden)</span>}
+                                    {plant.bloom_time && <span className="trait-badge pollinator">Pollinator</span>}
+                                    {plant.rain_garden_dry && <span className="trait-badge dry">Drought Tolerant (Rain garden slopes)</span>}
                                     {plant.bioswale && <span className="trait-badge bioswale">Flooding Control/Bioswale</span>}
-                                    {plant.wildlife_keystone && <span className="trait-badge wildlife">Wildlife/Pollinator</span>}
+                                    {plant.wildlife_keystone && <span className="trait-badge wildlife">Wildlife Keystone</span>}
                                     {plant.ground_cover && <span className="trait-badge groundcover">Ground Cover</span>}
                                 </div>
                             </li>
@@ -358,7 +298,62 @@ export default function NativePlantRecommender() {
                             </>
                         )}
                     </div>
+                </div>
+            )}
+
+
+
+            {selectedPlant && (
+                <div className="results-list">
+                    <div className="plant-details">
+                        <div className="header-container">
+                            <strong ref={plantDetailRef}>Scientific Name</strong><br />
+                            <h4>{selectedPlant.botanical_name}</h4>
+                            <h2>Common Name:</h2>
+                            <strong>{selectedPlant.common_name.toUpperCase()}</strong>
+                            <h3>Genus:</h3>
+                            <h4>{(selectedPlant.botanical_name.split(' ')[0])}</h4>
+                            <strong>Type: {selectedPlant.plant_type || 'Plant'}</strong>
+                            </div>
+                        <div className="plant-image-container">
+                            <img
+                                className="plant-image"
+                                src={getImageFromJson(selectedPlant, genusImages)}
+                                alt={selectedPlant.botanical_name}
+                            />
+                        </div>
+                        <h6>All Pictures and Descriptions are sourced from The MOBOT or MDC.</h6>
+                        <div>
+                            <button className='pagination-button'>
+                                <a href={getSourceUrl(selectedPlant, genusImages)}>Source</a>
+                            </button>
+                        </div>
+                        <div className="plant-traits">
+                            <h4 className ='mini-container'>Sustainability Traits:</h4>
+                            {selectedPlant.rain_garden_wet && <span className="trait-badge wet">Loves Water</span>}
+                            {selectedPlant.bloom_time && <span className="trait-badge pollinator">Pollinator</span>}
+                            {selectedPlant.rain_garden_dry && <span className="trait-badge dry">Drought Tolerant</span>}
+                            {selectedPlant.bioswale && <span className="trait-badge bioswale">Flooding Control/Bioswale</span>}
+                            {selectedPlant.wildlife_keystone && <span className="trait-badge wildlife">Wildlife Keystone</span>}
+                            {selectedPlant.ground_cover && <span className="trait-badge groundcover">Ground Cover</span>}
+                        </div>
+                        <div className={'plant-tag-container'}>
+                            <h4 className ='mini-container'>Plant Characteristics:</h4>
+                            <p>Soil: {selectedPlant.soil_type === 'moist' ? 'Moist areas' : 'Dry areas'}</p>
+                            <p>Sun: {selectedPlant.full_sun ? 'Full sun' : ''}
+                                {selectedPlant.part_shade ? ' Part shade' : ''}
+                                {selectedPlant.full_shade ? ' Full shade' : ''}</p>
+                            <p>Height: {selectedPlant.height}</p>
+                            <p>Bloom Time: {selectedPlant.bloom_time}</p>
+                            <h4 className ='mini-container'>Recommended Uses:</h4>
+                            <p>{getPlantHabitats(selectedPlant).join(', ') || 'None specified'}</p>
+                            <section className="plant-details">
+                                <h4>Description: </h4>
+                                <p>{getDescription(selectedPlant, genusImages) || 'No Description Found'}</p>
+                            </section>
+                        </div>
                     </div>
+                </div>
             )}
 
             {!isScrolledToBottom && (

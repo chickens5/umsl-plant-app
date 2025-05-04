@@ -15,6 +15,7 @@
     z-index: 1;
 }
 
+
 .jquery-background-video {
     position: absolute;
     top: 50%;
@@ -38,7 +39,14 @@
     z-index: 2;
 }
 
-
+.checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
 
 /* Filter Section */
 .filter-section {
@@ -58,16 +66,17 @@
 }
 
 .filter-group label {
-    display: block;
-    margin: 5px 0;
-    background: #76232f;
-    width: 100%;
-    border-radius: 1rem;
-    box-shadow: -3.3px 2px 12px rgb(255, 183, 0); /* UMSL dark gray as shadow */
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    column-count: 2;
+    box-shadow: -1px 2px 2px rgb(255, 0, 0); /* UMSL dark gray as shadow */
     cursor: pointer;
 }
-
-
+.filter-group label:hover {
+    transform: scale(1.02);
+    box-shadow: -1px 2px 2px rgb(0, 0, 0);
+}
 
 /* Plant Traits Badges */
 .plant-traits {
@@ -91,6 +100,10 @@
     background-color: #e67e22;
 }
 
+.trait-badge.pollinator {
+    background-color: #ffcd00;
+}
+
 .trait-badge.bioswale {
     background-color: #27ae60;
 }
@@ -98,5 +111,5 @@
     background-color: #be00ff;
 }
 .trait-badge.groundcover {
-    background-color: #ffd35f;
+    background-color: #775608;
 }
