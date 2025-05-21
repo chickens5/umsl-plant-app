@@ -1414,6 +1414,7 @@
     "full_shade": "X",
     "height": "60\u201380",
     "bloom_time": "spring",
+    "tornado_resistant": "true",
     "rain_garden_wet": true,
     "rain_garden_dry": true,
     "bioswale": true,
