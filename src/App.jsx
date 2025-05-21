@@ -249,7 +249,7 @@ export default function NativePlantRecommender() {
                                 />
                             </label>
                         ))}
-                        <h5 className ='mini-container'>Habitat/Use:</h5>
+                        <h5 className ='mini-container'>Habitat:</h5>
                         {filterOptions.habitat.map(habitat => (
                             <label key={habitat}>
                                 {habitatDisplayNames[habitat]}
@@ -257,6 +257,18 @@ export default function NativePlantRecommender() {
                                     type="checkbox"
                                     checked={selectedFilters.habitat.includes(habitat)}
                                     onChange={() => handleFilterChange('habitat', habitat)}
+                                />
+                            </label>
+                        ))}
+
+                       <h5 className ='mini-container'>Use Case:</h5>
+                        {filterOptions.habitat.map(habitat => (
+                            <label key={useCase}>
+                                {useCaseDisplayNames[useCase]}
+                                <input
+                                    type="checkbox"
+                                    checked={selectedFilters.useCase.includes(useCase)}
+                                    onChange={() => handleFilterChange('useCase', useCase)}
                                 />
                             </label>
                         ))}
