@@ -24,6 +24,7 @@ export default function NativePlantRecommender() {
     const [showAll, setShowAll] = useState(false);
     const [selectedFilters, setSelectedFilters] = useState({
         soilType: [],
+        useCase: [].
         sunlight: [],
         habitat: [],
         plantType: [],
@@ -42,14 +43,17 @@ export default function NativePlantRecommender() {
         plantStatus: ['S1', 'S2', 'S3', 'S4', 'S5'],
         soilType: ['moist', 'dry'],
         sunlight: ['full_sun', 'part_shade', 'full_shade'],
-        plantType: ['Tree','Shrub','Forb','Fern'],
+        plantType: ['Tree','Shrub','Forb','Fern', 'Grass'],
         habitat: [
             'rain_garden_wet',
             'rain_garden_dry',
             'bioswale',
             'wildlife_keystone',
             'ground_cover'
-        ]
+        ],
+     useCase: [
+      'tornado_resistant'
+     ]
     };
 
     const habitatDisplayNames = {
@@ -112,6 +116,10 @@ export default function NativePlantRecommender() {
             if (selectedFilters.habitat.length > 0) {
                 const hasHabitat = selectedFilters.habitat.some(habitat => plant[habitat]);
                 if (!hasHabitat) return false;
+            }
+           if (selectedFilters.useCase.length > 0) {
+                const hasUseCase = selectedFilters.useCase.some(useCase => plant[use_case]);
+                if (!hasUseCase) return false;
             }
             return true;
         });
