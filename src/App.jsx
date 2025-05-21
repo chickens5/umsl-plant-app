@@ -64,6 +64,10 @@ export default function NativePlantRecommender() {
         'ground_cover': 'Ground Cover'
     };
 
+    const useCaseDisplayNames = {
+       'tornado_resistant': "Tornado Resistant"
+    };
+
     const handleScroll = () => {
         if (pageContainerRef.current) {
             const { scrollHeight, scrollTop, clientHeight } = pageContainerRef.current;
@@ -193,7 +197,11 @@ export default function NativePlantRecommender() {
     }
 
 
-
+   const getPlantUseCase = (plant) => {
+        return Object.entries(plant)
+            .filter(([key, value]) => filterOptions.useCase.includes(key) && value)
+            .map(([key]) => useCaseDisplayNames[key]);
+    };
 
     const getPlantHabitats = (plant) => {
         return Object.entries(plant)
