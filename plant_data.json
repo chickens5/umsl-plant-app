@@ -2618,8 +2618,6 @@
     "soil_type": "dry",
     "full_sun": "X",
     "part_shade": "X",
-    "butterfly_garden": true,
-    "bird_haven": true,
     "full_shade": "X",
     "height": "7\u201310",
     "bloom_time": "spring",
